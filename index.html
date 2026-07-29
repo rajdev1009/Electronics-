@@ -1,0 +1,2190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PowerFix Electrician | Reliable & Professional Electrical Services</title>
+<meta name="description" content="PowerFix Electrician provides trusted home & commercial electrical services — wiring, fan & light installation, MCB repair, inverter setup, CCTV installation and 24/7 emergency callouts. Licensed. Insured. On time.">
+<meta name="keywords" content="electrician, electrical services, home wiring, CCTV installation, MCB repair, emergency electrician, inverter installation">
+<meta property="og:title" content="PowerFix Electrician — Reliable & Professional Electrical Services">
+<meta property="og:description" content="Licensed electricians for homes & businesses. Wiring, repairs, installations and 24/7 emergency service.">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0A2540">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FFB800'%3E%3Cpath d='M13 2 3 14h7l-1 8 11-14h-7l0-6z'/%3E%3C/svg%3E">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Electrician",
+  "name": "PowerFix Electrician",
+  "image": "",
+  "telephone": "+919395744401",
+  "email": "rajdev9101@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lumding",
+    "addressRegion": "Assam",
+    "postalCode": "782447",
+    "addressCountry": "IN"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "20:00" }
+  ],
+  "priceRange": "₹₹",
+  "areaServed": "Lumding, Assam"
+}
+</script>
+
+<!-- ==========================================================
+     GOOGLE ANALYTICS (optional) — to enable:
+     1. Create a free GA4 property at analytics.google.com
+     2. Replace G-XXXXXXXXXX below (both places) with your Measurement ID
+     3. Uncomment the two script tags
+     ========================================================== -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+-->
+
+
+<!-- ======================================================
+     QUICK EDIT GUIDE
+     1. Business name/tagline -> search "PowerFix Electrician"
+     2. Phone number  -> search "+91 93957 44401"  (CONFIG.phone below controls all click-to-call links)
+     3. WhatsApp number -> CONFIG.whatsapp in the <script> at the bottom
+     4. Formspree form -> search "YOUR_FORM_ID" in the <form action="">
+     5. Address/email -> CONFIG object in <script>, and #contact section text
+     ====================================================== -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --navy: #0A2540;
+  --navy-deep: #071B30;
+  --navy-soft: #12335C;
+  --yellow: #FFB800;
+  --yellow-dim: #FFD466;
+  --white: #FFFFFF;
+  --ink: #10233D;
+  --ink-soft: #4B5C74;
+  --mist: #F4F7FB;
+  --line: #E3E9F2;
+  --success: #1FAE5C;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --radius: 14px;
+  --shadow-sm: 0 2px 10px rgba(10,37,64,0.08);
+  --shadow-md: 0 10px 30px rgba(10,37,64,0.14);
+  --shadow-lg: 0 20px 60px rgba(10,37,64,0.22);
+  --ease: cubic-bezier(.4,0,.2,1);
+}
+
+*,*::before,*::after{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior:auto; }
+  *,*::before,*::after{ animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important; }
+}
+body{
+  margin:0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--white);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{
+  font-family: var(--font-display);
+  color: var(--navy);
+  line-height:1.15;
+  margin:0 0 .5em;
+}
+p{ margin:0 0 1em; color: var(--ink-soft); }
+a{ color:inherit; text-decoration:none; }
+img{ max-width:100%; display:block; }
+ul{ margin:0; padding:0; list-style:none; }
+button{ font-family:inherit; cursor:pointer; }
+:focus-visible{ outline:3px solid var(--yellow); outline-offset:2px; }
+
+.container{
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  padding:0 24px;
+}
+/* Fix: anchor links (Home/Services/About/Projects/Contact, incl. mobile menu
+   and the "Get Free Quote" button) were landing right under the fixed navbar,
+   so it could look like nothing happened. scroll-margin-top pushes the
+   landing point down below the sticky header for every section with an id. */
+[id]{ scroll-margin-top: 96px; }
+.eyebrow{
+  font-family: var(--font-mono);
+  font-size:.78rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color: var(--yellow);
+  background: rgba(255,184,0,0.12);
+  border:1px solid rgba(255,184,0,0.35);
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:6px 14px;
+  border-radius:100px;
+  margin-bottom:16px;
+}
+.eyebrow::before{
+  content:"";
+  width:7px; height:7px; border-radius:50%;
+  background: var(--yellow);
+  box-shadow:0 0 0 4px rgba(255,184,0,0.25);
+}
+.section-head{ max-width:640px; margin-bottom:48px; }
+.section-head.center{ margin-left:auto; margin-right:auto; text-align:center; }
+.section-head h2{ font-size: clamp(1.7rem, 3.4vw, 2.5rem); }
+.section{ padding: 96px 0; }
+.section.alt{ background: var(--mist); }
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  font-family: var(--font-body);
+  font-weight:600;
+  font-size:.95rem;
+  padding:15px 28px;
+  border-radius:10px;
+  border:2px solid transparent;
+  transition: transform .25s var(--ease), box-shadow .25s var(--ease), background .25s var(--ease), color .25s var(--ease), border-color .25s var(--ease);
+  white-space:nowrap;
+}
+.btn svg{ width:19px; height:19px; flex-shrink:0; }
+.btn-primary{ background: var(--yellow); color: var(--navy); box-shadow: var(--shadow-sm); }
+.btn-primary:hover{ background: var(--yellow-dim); transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.btn-outline{ background: transparent; color: var(--white); border-color: rgba(255,255,255,0.4); }
+.btn-outline:hover{ background: rgba(255,255,255,0.1); border-color: var(--white); transform: translateY(-3px); }
+.btn-dark{ background: var(--navy); color: var(--white); }
+.btn-dark:hover{ background: var(--navy-soft); transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.btn-block{ width:100%; }
+
+/* ============ NAVBAR ============ */
+.navbar{
+  position: fixed; top:0; left:0; right:0; z-index:1000;
+  background: rgba(10,37,64,0.0);
+  backdrop-filter: blur(0px);
+  transition: background .35s var(--ease), box-shadow .35s var(--ease), backdrop-filter .35s var(--ease), padding .35s var(--ease);
+  padding: 22px 0;
+}
+.navbar.scrolled{
+  background: rgba(10,37,64,0.92);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+  padding: 12px 0;
+}
+.nav-inner{ display:flex; align-items:center; justify-content:space-between; gap:24px; }
+.logo{ display:flex; align-items:center; gap:10px; font-family: var(--font-display); font-weight:700; font-size:1.25rem; color:var(--white); }
+.logo-mark{
+  width:38px; height:38px; border-radius:9px;
+  background: linear-gradient(145deg, var(--yellow), #E29900);
+  display:flex; align-items:center; justify-content:center;
+  box-shadow: 0 4px 14px rgba(255,184,0,0.35);
+  flex-shrink:0;
+}
+.logo-mark svg{ width:20px; height:20px; color:var(--navy); }
+.logo span{ color: var(--yellow); }
+
+.nav-links{ display:flex; align-items:center; gap:34px; }
+.nav-links a{
+  color: rgba(255,255,255,0.85);
+  font-weight:500;
+  font-size:.95rem;
+  position:relative;
+  padding:6px 0;
+  transition:color .2s;
+}
+.nav-links a::after{
+  content:""; position:absolute; left:0; bottom:0; height:2px; width:0;
+  background: var(--yellow); transition: width .25s var(--ease);
+}
+.nav-links a:hover{ color:var(--white); }
+.nav-links a:hover::after{ width:100%; }
+
+.nav-cta{ display:flex; align-items:center; gap:14px; }
+.nav-call{
+  display:flex; align-items:center; gap:8px;
+  color:var(--white); font-family:var(--font-mono); font-weight:500; font-size:.9rem;
+}
+.nav-call svg{ width:17px; height:17px; color:var(--yellow); }
+
+.hamburger{
+  display:none; flex-direction:column; gap:5px;
+  width:40px; height:40px; border:none; background:transparent;
+  align-items:center; justify-content:center;
+}
+.hamburger span{
+  width:24px; height:2px; background:var(--white); border-radius:2px;
+  transition: transform .3s var(--ease), opacity .3s var(--ease);
+}
+.hamburger.open span:nth-child(1){ transform: translateY(7px) rotate(45deg); }
+.hamburger.open span:nth-child(2){ opacity:0; }
+.hamburger.open span:nth-child(3){ transform: translateY(-7px) rotate(-45deg); }
+
+.mobile-panel{
+  position:fixed; top:0; right:0; height:100vh; width:min(320px,84vw);
+  background: var(--navy-deep);
+  z-index:1001;
+  padding:100px 32px 40px;
+  display:flex; flex-direction:column; gap:26px;
+  transform: translateX(100%);
+  transition: transform .4s var(--ease);
+  box-shadow: -20px 0 60px rgba(0,0,0,0.35);
+}
+.mobile-panel.open{ transform: translateX(0); }
+.mobile-panel a{ color:var(--white); font-size:1.05rem; font-weight:500; }
+.mobile-panel .btn{ margin-top:10px; }
+.scrim{
+  position:fixed; inset:0; background:rgba(5,15,28,0.55); z-index:1000;
+  opacity:0; pointer-events:none; transition:opacity .35s;
+}
+.scrim.open{ opacity:1; pointer-events:auto; }
+
+/* ============ HERO ============ */
+.hero{
+  position:relative;
+  min-height:100vh;
+  display:flex; align-items:center;
+  background: radial-gradient(1100px 700px at 78% 18%, #123963 0%, var(--navy) 46%, var(--navy-deep) 100%);
+  overflow:hidden;
+  padding:150px 0 100px;
+}
+.hero-grid{
+  position:absolute; inset:0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.045) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: radial-gradient(900px 600px at 70% 30%, black, transparent 75%);
+}
+.hero-circuit{ position:absolute; inset:0; width:100%; height:100%; opacity:.55; }
+.hero-circuit path{ fill:none; stroke:rgba(255,184,0,0.35); stroke-width:1.5; }
+.hero-circuit .pulse{ fill: var(--yellow); filter: drop-shadow(0 0 6px rgba(255,184,0,0.9)); }
+.hero-inner{ position:relative; z-index:2; display:grid; grid-template-columns: 1.1fr .9fr; gap:50px; align-items:center; }
+.hero-copy .eyebrow{ background: rgba(255,184,0,0.14); }
+.hero-copy h1{
+  color:var(--white);
+  font-size: clamp(2.3rem, 5vw, 3.6rem);
+  letter-spacing:-0.01em;
+}
+.hero-copy h1 .flicker{ color: var(--yellow); }
+.hero-copy p.lead{
+  color: rgba(255,255,255,0.78);
+  font-size:1.08rem;
+  max-width:520px;
+}
+.hero-actions{ display:flex; gap:16px; flex-wrap:wrap; margin-top:8px; }
+.hero-stats{ display:flex; gap:32px; margin-top:48px; flex-wrap:wrap; }
+.hero-stat b{ display:block; font-family:var(--font-display); font-size:1.7rem; color:var(--yellow); }
+.hero-stat span{ font-family:var(--font-mono); font-size:.78rem; color:rgba(255,255,255,0.6); text-transform:uppercase; letter-spacing:.06em; }
+
+.hero-panel{
+  position:relative;
+  background: rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.12);
+  border-radius: 20px;
+  padding: 30px;
+  backdrop-filter: blur(6px);
+}
+.hero-panel-header{ display:flex; align-items:center; justify-content:space-between; margin-bottom:18px; }
+.hero-panel-header span{ font-family:var(--font-mono); font-size:.75rem; color:rgba(255,255,255,0.55); text-transform:uppercase; letter-spacing:.08em; }
+.live-dot{ display:flex; align-items:center; gap:8px; font-family:var(--font-mono); font-size:.75rem; color:var(--yellow); }
+.live-dot i{ width:8px; height:8px; border-radius:50%; background:var(--yellow); display:inline-block; animation: blink 1.6s infinite; }
+@keyframes blink{ 0%,100%{ opacity:1; } 50%{ opacity:.25; } }
+.mini-service{
+  display:flex; align-items:center; gap:14px;
+  padding:14px 12px; border-radius:12px;
+  color:rgba(255,255,255,0.85);
+  transition: background .2s;
+}
+.mini-service:hover{ background: rgba(255,255,255,0.06); }
+.mini-service + .mini-service{ border-top:1px solid rgba(255,255,255,0.08); }
+.mini-service .icon-wrap{
+  width:38px; height:38px; border-radius:9px; flex-shrink:0;
+  background: rgba(255,184,0,0.14); color:var(--yellow);
+  display:flex; align-items:center; justify-content:center;
+}
+.mini-service .icon-wrap svg{ width:19px; height:19px; }
+.mini-service b{ font-size:.92rem; font-weight:600; display:block; }
+.mini-service small{ font-size:.78rem; color:rgba(255,255,255,0.5); }
+
+@media (max-width: 940px){
+  .hero-inner{ grid-template-columns:1fr; }
+  .hero-panel{ max-width:520px; }
+}
+
+/* ============ SERVICES ============ */
+.services-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
+.service-card{
+  background: var(--white);
+  border:1px solid var(--line);
+  border-radius: var(--radius);
+  padding:32px 28px;
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s var(--ease);
+  position:relative;
+  overflow:hidden;
+}
+.service-card::before{
+  content:""; position:absolute; top:0; left:0; right:0; height:3px;
+  background: linear-gradient(90deg, var(--yellow), transparent);
+  transform: scaleX(0); transform-origin:left; transition: transform .35s var(--ease);
+}
+.service-card:hover{ transform: translateY(-8px); box-shadow: var(--shadow-md); border-color:transparent; }
+.service-card:hover::before{ transform: scaleX(1); }
+.service-icon{
+  width:56px; height:56px; border-radius:14px;
+  background: var(--navy);
+  display:flex; align-items:center; justify-content:center;
+  margin-bottom:22px;
+  transition: background .3s var(--ease), transform .3s var(--ease);
+}
+.service-icon svg{ width:27px; height:27px; color:var(--yellow); }
+.service-card:hover .service-icon{ background: var(--yellow); transform: rotate(-6deg) scale(1.05); }
+.service-card:hover .service-icon svg{ color: var(--navy); }
+.service-card h3{ font-size:1.15rem; margin-bottom:8px; }
+.service-card p{ font-size:.93rem; margin-bottom:0; }
+
+@media (max-width: 900px){ .services-grid{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width: 620px){ .services-grid{ grid-template-columns:1fr; } }
+
+/* ============ WHY CHOOSE US ============ */
+.why-section{ background: var(--navy); position:relative; overflow:hidden; }
+.why-section::before{
+  content:""; position:absolute; inset:0;
+  background-image: linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+  background-size:48px 48px;
+}
+.why-section .container{ position:relative; z-index:1; }
+.why-section .section-head h2, .why-section .section-head p{ color:var(--white); }
+.why-section .section-head p{ color: rgba(255,255,255,0.65); }
+.why-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:24px; }
+.why-card{
+  background: rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius);
+  padding:28px 24px;
+  transition: background .3s, transform .3s var(--ease);
+}
+.why-card:hover{ background: rgba(255,255,255,0.08); transform: translateY(-6px); }
+.why-icon{
+  width:48px; height:48px; border-radius:50%;
+  background: rgba(255,184,0,0.15); color:var(--yellow);
+  display:flex; align-items:center; justify-content:center; margin-bottom:18px;
+}
+.why-icon svg{ width:23px; height:23px; }
+.why-card h3{ color:var(--white); font-size:1.05rem; margin-bottom:8px; }
+.why-card p{ color: rgba(255,255,255,0.6); font-size:.9rem; margin-bottom:0; }
+
+@media (max-width: 900px){ .why-grid{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width: 560px){ .why-grid{ grid-template-columns:1fr; } }
+
+/* ============ ABOUT ============ */
+.about-wrap{ display:grid; grid-template-columns: .95fr 1.05fr; gap:60px; align-items:center; }
+.about-media{ position:relative; }
+.about-media .frame{
+  border-radius:20px; overflow:hidden; box-shadow: var(--shadow-lg);
+  border:6px solid var(--white);
+}
+.about-badge{
+  position:absolute; bottom:-24px; left:-24px;
+  background: var(--yellow); color:var(--navy);
+  border-radius:16px; padding:20px 24px;
+  box-shadow: var(--shadow-md);
+  font-family: var(--font-display);
+}
+.about-badge b{ font-size:2.1rem; display:block; line-height:1; }
+.about-badge span{ font-family:var(--font-mono); font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; }
+.about-list{ margin-top:24px; display:flex; flex-direction:column; gap:14px; }
+.about-list li{ display:flex; align-items:flex-start; gap:12px; color:var(--ink); font-weight:500; }
+.about-list svg{ width:20px; height:20px; color:var(--success); flex-shrink:0; margin-top:2px; }
+
+@media (max-width: 900px){
+  .about-wrap{ grid-template-columns:1fr; }
+  .about-badge{ left:16px; bottom:-20px; }
+  .about-media{ margin-bottom:40px; }
+}
+
+/* ============ PROJECTS ============ */
+.projects-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+.project-card{
+  position:relative; border-radius: var(--radius); overflow:hidden;
+  aspect-ratio: 4/3; box-shadow: var(--shadow-sm);
+}
+.project-card img{ width:100%; height:100%; object-fit:cover; transition: transform .5s var(--ease); }
+.project-card:hover img{ transform: scale(1.08); }
+.project-overlay{
+  position:absolute; inset:0;
+  background: linear-gradient(to top, rgba(10,37,64,0.92) 0%, rgba(10,37,64,0.15) 55%, transparent 100%);
+  display:flex; flex-direction:column; justify-content:flex-end; padding:22px;
+  opacity:0; transition: opacity .35s var(--ease);
+}
+.project-card:hover .project-overlay{ opacity:1; }
+.project-overlay .tag{
+  font-family:var(--font-mono); font-size:.7rem; color:var(--yellow);
+  text-transform:uppercase; letter-spacing:.08em; margin-bottom:6px;
+}
+.project-overlay h3{ color:var(--white); font-size:1.05rem; margin:0; }
+
+@media (max-width: 900px){ .projects-grid{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width: 600px){ .projects-grid{ grid-template-columns:1fr; } }
+
+/* ============ SHOP / COMPONENTS ============ */
+.shop-controls{ display:flex; flex-direction:column; gap:20px; margin-bottom:36px; }
+.shop-search{ position:relative; max-width:480px; }
+.shop-search input{
+  width:100%; padding:14px 16px 14px 46px; font-family:var(--font-body); font-size:.95rem;
+  border:1.5px solid var(--line); border-radius:12px; color:var(--ink);
+  background: var(--white); transition: border-color .2s, box-shadow .2s;
+}
+.shop-search input:focus{ outline:none; border-color:var(--yellow); box-shadow:0 0 0 4px rgba(255,184,0,0.15); }
+.shop-search svg{ position:absolute; left:16px; top:50%; transform:translateY(-50%); width:18px; height:18px; color:var(--ink-soft); }
+.shop-chips{ display:flex; flex-wrap:wrap; gap:10px; }
+.chip{
+  font-family: var(--font-mono); font-size:.78rem; text-transform:uppercase; letter-spacing:.04em;
+  padding:9px 16px; border-radius:100px; border:1.5px solid var(--line); background:var(--white); color:var(--ink-soft);
+  transition: background .2s, color .2s, border-color .2s; white-space:nowrap;
+}
+.chip:hover{ border-color:var(--navy); color:var(--navy); }
+.chip.active{ background:var(--navy); border-color:var(--navy); color:var(--white); }
+.shop-meta{ font-family:var(--font-mono); font-size:.8rem; color:var(--ink-soft); margin-bottom:18px; }
+.product-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:20px; }
+.product-card{
+  background:var(--white); border:1px solid var(--line); border-radius:14px; overflow:hidden;
+  display:flex; flex-direction:column; transition: transform .25s var(--ease), box-shadow .25s var(--ease);
+}
+.product-card:hover{ transform: translateY(-5px); box-shadow: var(--shadow-md); }
+.product-thumb{ aspect-ratio:1/1; overflow:hidden; background:var(--mist); }
+.product-thumb img{ width:100%; height:100%; object-fit:cover; }
+.product-body{ padding:16px; display:flex; flex-direction:column; gap:8px; flex:1; }
+.product-cat{ font-family:var(--font-mono); font-size:.68rem; text-transform:uppercase; letter-spacing:.05em; color:var(--yellow-dim2, #B8860B); }
+.product-body h4{ font-family:var(--font-display); font-size:.92rem; color:var(--navy); margin:0; line-height:1.3; min-height:2.4em; }
+.product-price{ font-family:var(--font-mono); font-size:.85rem; color:var(--ink-soft); margin-top:auto; }
+.product-buy{
+  display:flex; align-items:center; justify-content:center; gap:6px;
+  background:var(--navy); color:var(--white); font-size:.82rem; font-weight:600;
+  padding:10px; border-radius:8px; margin-top:6px; transition: background .2s;
+}
+.product-buy:hover{ background:var(--yellow); color:var(--navy); }
+.product-buy svg{ width:14px; height:14px; }
+.shop-empty{ text-align:center; padding:50px 20px; color:var(--ink-soft); font-size:.95rem; display:none; }
+.shop-empty.show{ display:block; }
+.shop-loadmore{ display:flex; justify-content:center; margin-top:36px; }
+
+@media (max-width: 1080px){ .product-grid{ grid-template-columns:repeat(3,1fr); } }
+@media (max-width: 720px){ .product-grid{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width: 420px){ .product-grid{ grid-template-columns:1fr 1fr; gap:12px; } .product-body{ padding:12px; } }
+
+/* ============ SHOP ENHANCEMENTS ============ */
+.shop-toolbar{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin-bottom:8px; }
+.shop-toolbar-right{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+.sort-select{
+  font-family: var(--font-mono); font-size:.8rem; text-transform:uppercase; letter-spacing:.04em;
+  padding:9px 14px; border-radius:100px; border:1.5px solid var(--line); background:var(--white); color:var(--ink-soft);
+  cursor:pointer;
+}
+.bulk-btn{
+  display:inline-flex; align-items:center; gap:8px;
+  font-family: var(--font-mono); font-size:.78rem; text-transform:uppercase; letter-spacing:.04em;
+  padding:9px 16px; border-radius:100px; border:1.5px solid var(--yellow); background:rgba(255,184,0,0.1); color:var(--navy);
+  transition: background .2s;
+}
+.bulk-btn:hover{ background:var(--yellow); }
+.bulk-btn svg{ width:15px; height:15px; }
+.wa-signup{
+  display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+  background: var(--mist); border:1px dashed var(--line); border-radius:14px; padding:18px 22px; margin-bottom:28px;
+}
+.wa-signup p{ margin:0; font-size:.9rem; color:var(--ink); }
+.wa-signup a{
+  display:inline-flex; align-items:center; gap:8px; background:#25D366; color:var(--white);
+  font-size:.85rem; font-weight:600; padding:10px 18px; border-radius:100px; flex-shrink:0;
+}
+.stock-tag{ font-family:var(--font-mono); font-size:.68rem; text-transform:uppercase; letter-spacing:.04em; padding:2px 8px; border-radius:100px; display:inline-block; width:fit-content; }
+.stock-tag.in{ background:rgba(31,174,92,0.12); color:var(--success); }
+.stock-tag.out{ background:rgba(75,92,116,0.1); color:var(--ink-soft); }
+.product-select{ display:flex; align-items:center; gap:8px; font-size:.8rem; color:var(--ink-soft); margin-top:2px; }
+.product-select input{ width:16px; height:16px; accent-color:var(--yellow); }
+.cart-bar{
+  position:fixed; left:50%; bottom:24px; transform:translateX(-50%) translateY(120%); z-index:950;
+  background:var(--navy); color:var(--white); border-radius:100px; box-shadow:var(--shadow-lg);
+  padding:12px 12px 12px 22px; display:flex; align-items:center; gap:16px;
+  transition: transform .35s var(--ease); max-width:92vw;
+}
+.cart-bar.show{ transform:translateX(-50%) translateY(0); }
+.cart-bar span{ font-family:var(--font-mono); font-size:.85rem; white-space:nowrap; }
+.cart-bar .btn{ padding:10px 20px; font-size:.85rem; }
+.cart-bar .clear-cart{ background:transparent; color:rgba(255,255,255,0.6); font-size:.78rem; text-decoration:underline; padding:0; border:none; }
+
+/* ============ SAFETY TIPS ============ */
+.safety-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+.safety-card{
+  background:var(--white); border:1px solid var(--line); border-radius:var(--radius); padding:26px 24px;
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+.safety-card:hover{ transform:translateY(-6px); box-shadow:var(--shadow-md); }
+.safety-num{ font-family:var(--font-mono); font-size:.75rem; color:var(--yellow); margin-bottom:10px; display:block; }
+.safety-card h3{ font-size:1.02rem; margin-bottom:8px; }
+.safety-card p{ font-size:.9rem; margin-bottom:0; }
+@media (max-width:900px){ .safety-grid{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:600px){ .safety-grid{ grid-template-columns:1fr; } }
+
+/* ============ FAQ ============ */
+.faq-list{ max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:14px; }
+.faq-item{ border:1px solid var(--line); border-radius:14px; overflow:hidden; background:var(--white); }
+.faq-q{
+  width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px;
+  padding:20px 24px; text-align:left; background:none; border:none; cursor:pointer;
+  font-family:var(--font-display); font-weight:600; font-size:.98rem; color:var(--navy);
+}
+.faq-q .plus{ font-size:1.3rem; color:var(--yellow); flex-shrink:0; transition:transform .3s var(--ease); }
+.faq-item.open .faq-q .plus{ transform:rotate(45deg); }
+.faq-a{ max-height:0; overflow:hidden; transition:max-height .35s var(--ease); }
+.faq-a p{ padding:0 24px 20px; margin:0; font-size:.92rem; }
+.faq-item.open .faq-a{ max-height:240px; }
+
+/* ============ BUSINESS HOURS ============ */
+.hours-box{ margin-top:22px; padding-top:22px; border-top:1px solid rgba(255,255,255,0.12); }
+.hours-box small{ display:block; font-family:var(--font-mono); font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; color:rgba(255,255,255,0.5); margin-bottom:10px; }
+.hours-row{ display:flex; justify-content:space-between; font-size:.88rem; color:rgba(255,255,255,0.85); padding:5px 0; }
+.hours-row b{ color:var(--yellow); font-weight:600; }
+
+/* ============ TESTIMONIALS ============ */
+.testi-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
+.testi-card{
+  background: var(--white); border:1px solid var(--line);
+  border-radius: var(--radius); padding:30px;
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+.testi-card:hover{ transform: translateY(-6px); box-shadow: var(--shadow-md); }
+.testi-stars{ display:flex; gap:4px; margin-bottom:16px; color: var(--yellow); }
+.testi-stars svg{ width:16px; height:16px; }
+.testi-card p{ font-style:italic; color:var(--ink); font-size:.96rem; }
+.testi-person{ display:flex; align-items:center; gap:12px; margin-top:20px; }
+.testi-avatar{
+  width:44px; height:44px; border-radius:50%;
+  background: var(--navy); color:var(--yellow);
+  display:flex; align-items:center; justify-content:center;
+  font-family:var(--font-display); font-weight:600;
+}
+.testi-person b{ display:block; font-size:.9rem; color:var(--navy); }
+.testi-person span{ font-size:.78rem; color:var(--ink-soft); }
+
+@media (max-width: 900px){ .testi-grid{ grid-template-columns:1fr; } }
+
+/* ============ CONTACT ============ */
+.contact-wrap{ display:grid; grid-template-columns: .85fr 1.15fr; gap:48px; }
+.contact-info{
+  background: var(--navy); color:var(--white);
+  border-radius: 20px; padding:38px 32px;
+  position:relative; overflow:hidden;
+}
+.contact-info::before{
+  content:""; position:absolute; inset:0;
+  background-image: linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size:40px 40px;
+}
+.contact-info > *{ position:relative; z-index:1; }
+.contact-info h3{ color:var(--white); font-size:1.3rem; }
+.contact-info p{ color:rgba(255,255,255,0.65); }
+.contact-item{ display:flex; align-items:flex-start; gap:14px; margin:22px 0; }
+.contact-item .icon-wrap{
+  width:42px; height:42px; border-radius:10px; flex-shrink:0;
+  background: rgba(255,184,0,0.14); color:var(--yellow);
+  display:flex; align-items:center; justify-content:center;
+}
+.contact-item .icon-wrap svg{ width:20px; height:20px; }
+.contact-item a, .contact-item span.txt{ color:var(--white); font-weight:500; font-size:.95rem; }
+.contact-item small{ display:block; color:rgba(255,255,255,0.5); font-family:var(--font-mono); font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; margin-bottom:4px; }
+.contact-socials{ display:flex; gap:10px; margin-top:28px; }
+.contact-socials a{
+  width:40px; height:40px; border-radius:10px;
+  background: rgba(255,255,255,0.08);
+  display:flex; align-items:center; justify-content:center;
+  transition: background .2s, transform .2s;
+}
+.contact-socials a:hover{ background: var(--yellow); color:var(--navy); transform: translateY(-3px); }
+.contact-socials svg{ width:18px; height:18px; }
+
+.contact-form{
+  background: var(--white); border:1px solid var(--line);
+  border-radius: 20px; padding:38px 34px; box-shadow: var(--shadow-sm);
+}
+.form-row{ display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+.field{ margin-bottom:20px; }
+.field label{ display:block; font-family:var(--font-mono); font-size:.75rem; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-soft); margin-bottom:8px; }
+.field input, .field select, .field textarea{
+  width:100%; padding:13px 16px; font-family:var(--font-body); font-size:.95rem;
+  border:1.5px solid var(--line); border-radius:10px; color:var(--ink);
+  background: var(--mist); transition: border-color .2s, box-shadow .2s, background .2s;
+}
+.field input:focus, .field select:focus, .field textarea:focus{
+  outline:none; border-color: var(--yellow); background:var(--white);
+  box-shadow: 0 0 0 4px rgba(255,184,0,0.15);
+}
+.field textarea{ resize:vertical; min-height:110px; }
+.form-note{ font-size:.8rem; color: var(--ink-soft); margin-top:10px; text-align:center; }
+.form-status{ font-size:.88rem; margin-top:14px; text-align:center; font-weight:600; display:none; }
+.form-status.show{ display:block; }
+.form-status.ok{ color: var(--success); }
+.form-status.err{ color:#DC2626; }
+
+@media (max-width: 900px){
+  .contact-wrap{ grid-template-columns:1fr; }
+  .form-row{ grid-template-columns:1fr; }
+}
+
+/* ============ CTA BAND ============ */
+.cta-band{
+  background: linear-gradient(120deg, var(--navy) 0%, var(--navy-soft) 100%);
+  border-radius: 22px;
+  padding:44px 40px;
+  display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;
+  margin: 0 auto;
+}
+.cta-band h3{ color:var(--white); font-size:1.4rem; margin-bottom:6px; }
+.cta-band p{ color:rgba(255,255,255,0.65); margin-bottom:0; }
+.cta-band .actions{ display:flex; gap:14px; flex-wrap:wrap; }
+
+/* ============ FOOTER ============ */
+footer{ background: var(--navy-deep); color:rgba(255,255,255,0.65); padding:70px 0 0; }
+.footer-grid{ display:grid; grid-template-columns: 1.3fr 1fr 1fr 1.1fr; gap:40px; padding-bottom:50px; border-bottom:1px solid rgba(255,255,255,0.08); }
+.footer-brand p{ color:rgba(255,255,255,0.55); font-size:.9rem; max-width:280px; }
+.footer-col h4{ color:var(--white); font-size:.95rem; margin-bottom:18px; font-family:var(--font-display); }
+.footer-col ul li{ margin-bottom:11px; }
+.footer-col ul a{ color:rgba(255,255,255,0.6); font-size:.9rem; transition:color .2s; }
+.footer-col ul a:hover{ color: var(--yellow); }
+.footer-bottom{ display:flex; justify-content:space-between; align-items:center; padding:26px 0; flex-wrap:wrap; gap:12px; font-size:.82rem; }
+.footer-bottom a{ color:rgba(255,255,255,0.55); }
+
+@media (max-width: 900px){ .footer-grid{ grid-template-columns:1fr 1fr; } }
+@media (max-width: 560px){ .footer-grid{ grid-template-columns:1fr; } }
+
+/* ============ FLOATING BUTTONS ============ */
+.floating-wa{
+  position:fixed; right:24px; bottom:24px; z-index:900;
+  width:62px; height:62px; border-radius:50%;
+  background:#25D366; color:var(--white);
+  display:flex; align-items:center; justify-content:center;
+  box-shadow: 0 10px 26px rgba(37,211,102,0.45);
+  animation: floatPulse 2.6s infinite;
+  transition: transform .25s;
+}
+.floating-wa:hover{ transform: scale(1.08); }
+.floating-wa svg{ width:30px; height:30px; }
+@keyframes floatPulse{
+  0%{ box-shadow:0 10px 26px rgba(37,211,102,0.45), 0 0 0 0 rgba(37,211,102,0.5); }
+  70%{ box-shadow:0 10px 26px rgba(37,211,102,0.45), 0 0 0 16px rgba(37,211,102,0); }
+  100%{ box-shadow:0 10px 26px rgba(37,211,102,0.45), 0 0 0 0 rgba(37,211,102,0); }
+}
+
+/* ============ REVEAL ANIMATION ============ */
+.reveal{ opacity:0; transform: translateY(28px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+.reveal.in{ opacity:1; transform:none; }
+.stagger > *{ transition-delay: calc(var(--i,0) * 90ms); }
+
+/* ============ RESPONSIVE NAV / GENERIC ============ */
+@media (max-width: 900px){
+  .nav-links{ display:none; }
+  .nav-call{ display:none; }
+  .hamburger{ display:flex; }
+  .section{ padding:70px 0; }
+  .hero{ padding-top:120px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 3 14h7l-1 8 11-14h-7l0-6z"/></svg>
+      </span>
+      Power<span>Fix</span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="tel:+919395744401" class="nav-call">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +91 93957 44401
+      </a>
+      <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="scrim" id="scrim"></div>
+<div class="mobile-panel" id="mobilePanel">
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#shop">Shop</a>
+  <a href="#contact">Contact</a>
+  <a href="tel:+919395744401" class="btn btn-primary btn-block">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    Call +91 93957 44401
+  </a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-grid"></div>
+  <svg class="hero-circuit" viewBox="0 0 900 700" preserveAspectRatio="none" aria-hidden="true">
+    <path id="tracePath" d="M0,120 L200,120 L200,260 L420,260 L420,60 L640,60 L640,340 L900,340" />
+    <path d="M0,520 L160,520 L160,420 L360,420 L360,600 L560,600 L560,480 L900,480" />
+    <circle class="pulse" r="5"><animateMotion dur="4.5s" repeatCount="indefinite" path="M0,120 L200,120 L200,260 L420,260 L420,60 L640,60 L640,340 L900,340"/></circle>
+    <circle class="pulse" r="4"><animateMotion dur="6s" repeatCount="indefinite" path="M0,520 L160,520 L160,420 L360,420 L360,600 L560,600 L560,480 L900,480"/></circle>
+  </svg>
+
+  <div class="container hero-inner">
+    <div class="hero-copy reveal in">
+      <span class="eyebrow">24/7 Emergency Response</span>
+      <h1>Reliable <span class="flicker">&amp; Professional</span><br>Electrical Services</h1>
+      <p class="lead">PowerFix Electrician keeps your home and business powered — safely, correctly, and on schedule. Licensed electricians, transparent pricing, and same-day service across your area.</p>
+      <div class="hero-actions">
+        <a href="tel:+919395744401" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Now
+        </a>
+        <a href="https://wa.me/919395744401?text=Hi%20PowerFix%2C%20I%20need%20an%20electrician." target="_blank" rel="noopener" class="btn btn-outline">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5s-.6-1.5-.9-2c-.2-.5-.5-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+          WhatsApp Us
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><b>15+</b><span>Years Experience</span></div>
+        <div class="hero-stat"><b>4,200+</b><span>Jobs Completed</span></div>
+        <div class="hero-stat"><b>24/7</b><span>Emergency Callouts</span></div>
+      </div>
+    </div>
+
+    <div class="hero-panel reveal in">
+      <div class="hero-panel-header">
+        <span>Today's Availability</span>
+        <span class="live-dot"><i></i>Live</span>
+      </div>
+      <div class="mini-service">
+        <span class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 11-14h-7l0-6z"/></svg></span>
+        <div><b>Emergency Fault Fix</b><small>Avg. response: 42 min</small></div>
+      </div>
+      <div class="mini-service">
+        <span class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/></svg></span>
+        <div><b>Switchboard &amp; MCB Repair</b><small>Same-day slots open</small></div>
+      </div>
+      <div class="mini-service">
+        <span class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+        <div><b>New Wiring Estimate</b><small>Book a free site visit</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="color:var(--navy); background:rgba(10,37,64,0.06); border-color:rgba(10,37,64,0.15);">What We Do</span>
+      <h2>Electrical services built around your safety</h2>
+      <p>From a flickering light to a full rewiring job, our licensed electricians handle it with the right tools, the right parts, and a clean finish.</p>
+    </div>
+
+    <div class="services-grid stagger">
+      <div class="service-card reveal" style="--i:0">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg></div>
+        <h3>Home Wiring</h3>
+        <p>Complete house wiring, rewiring and upgrades done to code — concealed conduit, safe load distribution, tested and certified.</p>
+      </div>
+      <div class="service-card reveal" style="--i:1">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="2"/><path d="M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></div>
+        <h3>Fan &amp; Light Installation</h3>
+        <p>Ceiling fans, chandeliers, LED panels and decorative lighting — mounted securely with clean, hidden wiring.</p>
+      </div>
+      <div class="service-card reveal" style="--i:2">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h2"/></svg></div>
+        <h3>MCB &amp; Switchboard Repair</h3>
+        <p>Tripping breakers, sparking switches or overheating boards diagnosed and fixed fast, with parts you can trust.</p>
+      </div>
+      <div class="service-card reveal" style="--i:3">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M10 6h4M10 18h4"/></svg></div>
+        <h3>Inverter &amp; Battery Setup</h3>
+        <p>Sizing, installation and maintenance for home inverters and battery banks so you're never left in the dark.</p>
+      </div>
+      <div class="service-card reveal" style="--i:4">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="14" height="10" rx="2"/><path d="M16 9l6-3v12l-6-3"/></svg></div>
+        <h3>CCTV Installation</h3>
+        <p>Camera placement, cabling, DVR/NVR setup and mobile app configuration for round-the-clock property monitoring.</p>
+      </div>
+      <div class="service-card reveal" style="--i:5">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4.5 8-11V5l-8-3-8 3v6c0 6.5 8 11 8 11z"/><path d="M12 8v5M12 16h.01"/></svg></div>
+        <h3>Emergency Electrical Service</h3>
+        <p>Power cuts, burning smells or exposed wiring — call our 24/7 emergency line for a rapid, safe response.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section class="section why-section">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Why PowerFix</span>
+      <h2>Trusted by homes and businesses for a reason</h2>
+      <p>We treat every job — big or small — with the same care as a full building rewire.</p>
+    </div>
+    <div class="why-grid stagger">
+      <div class="why-card reveal" style="--i:0">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7v6c0 5 4 9 9 9s9-4 9-9V7z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h3>Licensed &amp; Insured</h3>
+        <p>Every electrician is certified and every job covered — no risk to your home or business.</p>
+      </div>
+      <div class="why-card reveal" style="--i:1">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <h3>On-Time, Every Time</h3>
+        <p>We give you a real time window and show up in it — no all-day waiting around.</p>
+      </div>
+      <div class="why-card reveal" style="--i:2">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v4M12 19v4M4.2 4.2l2.9 2.9M16.9 16.9l2.9 2.9M1 12h4M19 12h4M4.2 19.8l2.9-2.9M16.9 7.1l2.9-2.9"/></svg></div>
+        <h3>Transparent Pricing</h3>
+        <p>Upfront quotes before we start — no surprise charges once the work is done.</p>
+      </div>
+      <div class="why-card reveal" style="--i:3">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 11-14h-7l0-6z"/></svg></div>
+        <h3>24/7 Emergency Line</h3>
+        <p>Electrical faults don't wait for business hours — neither do we.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container about-wrap">
+    <div class="about-media reveal">
+      <div class="frame">
+        <img src="https://picsum.photos/seed/powerfix-about/700/560" alt="PowerFix electrician at work on a switchboard" loading="lazy" width="700" height="560">
+      </div>
+      <div class="about-badge">
+        <b>15+</b>
+        <span>Years in the field</span>
+      </div>
+    </div>
+    <div class="about-copy reveal">
+      <span class="eyebrow" style="color:var(--navy); background:rgba(10,37,64,0.06); border-color:rgba(10,37,64,0.15);">About PowerFix</span>
+      <h2>Local electricians who treat your wiring like our own</h2>
+      <p>PowerFix Electrician started as a two-person callout service and has grown into a full residential and commercial electrical team — without losing the habit of showing up, explaining the problem plainly, and fixing it right the first time.</p>
+      <p>Our electricians are trained on current safety codes and carry the parts to finish most jobs in a single visit. Whether it's a single faulty switch or a full building rewire, you get the same clear communication and clean workmanship.</p>
+      <ul class="about-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Certified electricians, background-checked</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Genuine parts with manufacturer warranty</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Clean, dust-free wiring and finishing</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section alt" id="projects">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="color:var(--navy); background:rgba(10,37,64,0.06); border-color:rgba(10,37,64,0.15);">Our Work</span>
+      <h2>Recent projects from the field</h2>
+      <p>A look at real installations and repairs completed by the PowerFix team.</p>
+    </div>
+    <div class="projects-grid stagger">
+      <div class="project-card reveal" style="--i:0">
+        <img src="https://picsum.photos/seed/powerfix-1/500/400" alt="Residential wiring upgrade project" loading="lazy" width="500" height="400">
+        <div class="project-overlay"><span class="tag">Residential</span><h3>Full Home Rewiring</h3></div>
+      </div>
+      <div class="project-card reveal" style="--i:1">
+        <img src="https://picsum.photos/seed/powerfix-2/500/400" alt="Switchboard installation project" loading="lazy" width="500" height="400">
+        <div class="project-overlay"><span class="tag">Panel Work</span><h3>Switchboard Upgrade</h3></div>
+      </div>
+      <div class="project-card reveal" style="--i:2">
+        <img src="https://picsum.photos/seed/powerfix-3/500/400" alt="CCTV camera installation project" loading="lazy" width="500" height="400">
+        <div class="project-overlay"><span class="tag">Security</span><h3>8-Camera CCTV Setup</h3></div>
+      </div>
+      <div class="project-card reveal" style="--i:3">
+        <img src="https://picsum.photos/seed/powerfix-4/500/400" alt="Inverter and battery installation project" loading="lazy" width="500" height="400">
+        <div class="project-overlay"><span class="tag">Backup Power</span><h3>Inverter &amp; Battery Bank</h3></div>
+      </div>
+      <div class="project-card reveal" style="--i:4">
+        <img src="https://picsum.photos/seed/powerfix-5/500/400" alt="Lighting installation project" loading="lazy" width="500" height="400">
+        <div class="project-overlay"><span class="tag">Interior</span><h3>Decorative Lighting Fit-Out</h3></div>
+      </div>
+      <div class="project-card reveal" style="--i:5">
+        <img src="https://picsum.photos/seed/powerfix-6/500/400" alt="Commercial electrical project" loading="lazy" width="500" height="400">
+        <div class="project-overlay"><span class="tag">Commercial</span><h3>Retail Store Wiring</h3></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SAFETY TIPS ============ -->
+<section class="section alt" id="safety-tips">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="color:var(--navy); background:rgba(10,37,64,0.06); border-color:rgba(10,37,64,0.15);">Electrical Safety</span>
+      <h2>Quick safety tips every homeowner should know</h2>
+      <p>A few simple habits go a long way in preventing electrical accidents at home.</p>
+    </div>
+    <div class="safety-grid stagger">
+      <div class="safety-card reveal" style="--i:0">
+        <span class="safety-num">01</span>
+        <h3>Never overload a socket</h3>
+        <p>Avoid plugging multiple high-wattage appliances into one extension board — it's a leading cause of overheating and fires.</p>
+      </div>
+      <div class="safety-card reveal" style="--i:1">
+        <span class="safety-num">02</span>
+        <h3>Test your MCB monthly</h3>
+        <p>Press the test button on your MCB/RCCB every month to confirm it trips correctly during a fault.</p>
+      </div>
+      <div class="safety-card reveal" style="--i:2">
+        <span class="safety-num">03</span>
+        <h3>Keep water away from switches</h3>
+        <p>Never touch switches or sockets with wet hands, and keep switchboards away from splash zones like sinks.</p>
+      </div>
+      <div class="safety-card reveal" style="--i:3">
+        <span class="safety-num">04</span>
+        <h3>Don't ignore warm switches</h3>
+        <p>A warm switchboard, burning smell, or flickering light is an early warning sign — get it checked before it becomes an emergency.</p>
+      </div>
+      <div class="safety-card reveal" style="--i:4">
+        <span class="safety-num">05</span>
+        <h3>Use certified components only</h3>
+        <p>Cheap, uncertified wires and MCBs may look the same but often lack proper insulation and current ratings.</p>
+      </div>
+      <div class="safety-card reveal" style="--i:5">
+        <span class="safety-num">06</span>
+        <h3>Schedule an annual checkup</h3>
+        <p>Have a licensed electrician inspect your wiring once a year, especially in older homes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SHOP / COMPONENTS ============ -->
+<section class="section" id="shop">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="color:var(--navy); background:rgba(10,37,64,0.06); border-color:rgba(10,37,64,0.15);">Parts &amp; Components</span>
+      <h2>Electrical &amp; electronics components store</h2>
+      <p>Search our stock of components, sensors, boards and tools — tap Buy to order directly on WhatsApp.</p>
+    </div>
+
+    <div class="wa-signup reveal">
+      <p>📦 <strong>10,000+ components delivered</strong> — get restock alerts &amp; special offers on WhatsApp.</p>
+      <a href="https://wa.me/919395744401?text=Hi%20PowerFix%2C%20please%20add%20me%20to%20your%20WhatsApp%20updates%20for%20offers%20and%20new%20stock." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5s-.6-1.5-.9-2c-.2-.5-.5-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+        Get Updates
+      </a>
+    </div>
+
+    <div class="shop-controls reveal">
+      <div class="shop-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="shopSearch" placeholder="Search components e.g. Arduino, resistor, sensor...">
+      </div>
+      <div class="shop-chips" id="shopChips"><!-- filled by JS --></div>
+      <div class="shop-toolbar">
+        <span></span>
+        <div class="shop-toolbar-right">
+          <select class="sort-select" id="shopSort">
+            <option value="default">Sort: Default</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="name-asc">Name: A to Z</option>
+          </select>
+          <a class="bulk-btn" href="https://wa.me/919395744401?text=Hi%20PowerFix%2C%20I%20have%20a%20bulk%2Fwholesale%20order%20enquiry." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7h-9M14 17H5M6 4 3 7l3 3M18 14l3 3-3 3"/></svg>
+            Bulk / Wholesale Enquiry
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <p class="shop-meta" id="shopMeta"></p>
+    <div class="product-grid" id="productGrid"><!-- filled by JS --></div>
+    <p class="shop-empty" id="shopEmpty">No components match your search. Try a different keyword or category.</p>
+    <div class="shop-loadmore" id="shopLoadMoreWrap" style="display:none;">
+      <button class="btn btn-dark" id="shopLoadMore">Load More Components</button>
+    </div>
+  </div>
+</section>
+
+<div class="cart-bar" id="cartBar">
+  <span id="cartCount">0 items selected</span>
+  <button class="clear-cart" id="cartClear">Clear</button>
+  <a class="btn btn-primary" id="cartSend" href="#" target="_blank" rel="noopener">Send Order on WhatsApp</a>
+</div>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section" id="testimonials">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="color:var(--navy); background:rgba(10,37,64,0.06); border-color:rgba(10,37,64,0.15);">Customer Reviews</span>
+      <h2>What our customers say</h2>
+    </div>
+    <div class="testi-grid stagger">
+      <div class="testi-card reveal" style="--i:0">
+        <div class="testi-stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+        </div>
+        <p>"Our fuse board was buzzing and the PowerFix electrician came within an hour, found a loose connection, and had it sorted safely the same evening."</p>
+        <div class="testi-person">
+          <div class="testi-avatar">A</div>
+          <div><b>Ananya Sharma</b><span>Homeowner</span></div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="--i:1">
+        <div class="testi-stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+        </div>
+        <p>"They rewired our entire shop over a weekend so we didn't lose a single business day. Neat cable runs and a very fair quote."</p>
+        <div class="testi-person">
+          <div class="testi-avatar">R</div>
+          <div><b>Rohit Verma</b><span>Shop Owner</span></div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="--i:2">
+        <div class="testi-stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.8 5.5 21l2-7.5L2 9h7z"/></svg>
+        </div>
+        <p>"Installed CCTV across our whole compound and walked us through the app step by step. Professional from quote to finish."</p>
+        <div class="testi-person">
+          <div class="testi-avatar">S</div>
+          <div><b>Sunita Patel</b><span>Property Manager</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <h3>Got an electrical problem right now?</h3>
+        <p>Our emergency line is open 24/7 — call or message us on WhatsApp.</p>
+      </div>
+      <div class="actions">
+        <a href="tel:+919395744401" class="btn btn-primary">Call Now</a>
+        <a href="https://wa.me/919395744401?text=Hi%20PowerFix%2C%20I%20need%20an%20electrician." target="_blank" rel="noopener" class="btn btn-outline">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section alt" id="faq">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="color:var(--navy); background:rgba(10,37,64,0.06); border-color:rgba(10,37,64,0.15);">Questions</span>
+      <h2>Frequently asked questions</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q" type="button">How fast can you reach me for an emergency? <span class="plus">+</span></button>
+        <div class="faq-a"><p>For urgent faults we aim to reach you within 45–60 minutes in most local areas, depending on traffic and current job load. Call our emergency line directly for the fastest response.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Do you offer any warranty on repairs or installations? <span class="plus">+</span></button>
+        <div class="faq-a"><p>Yes — workmanship on installations is covered for 30 days, and parts carry the manufacturer's own warranty. Keep your invoice/WhatsApp order confirmation as proof of purchase.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Can I return or exchange a component I ordered? <span class="plus">+</span></button>
+        <div class="faq-a"><p>Unopened components in original condition can be exchanged within 3 days of delivery. Message us on WhatsApp with your order details to start a return — customized or used items aren't eligible.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">What payment methods do you accept? <span class="plus">+</span></button>
+        <div class="faq-a"><p>Currently we confirm orders and pricing over WhatsApp or phone, with payment collected on completion of the job or delivery of parts. Online card/UPI payment is coming soon.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Do you provide free quotes before starting work? <span class="plus">+</span></button>
+        <div class="faq-a"><p>Yes, for larger jobs like rewiring or CCTV setup we provide a free on-site estimate before any work begins, so there are no surprises later.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Which areas do you provide service in? <span class="plus">+</span></button>
+        <div class="faq-a"><p>We primarily serve Lumding, Assam and the surrounding areas. Message us your location on WhatsApp and we'll confirm if we can cover it.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section alt" id="contact">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="color:var(--navy); background:rgba(10,37,64,0.06); border-color:rgba(10,37,64,0.15);">Get In Touch</span>
+      <h2>Request a callout or free quote</h2>
+      <p>Tell us what's going on and we'll get back to you shortly — or call/WhatsApp for anything urgent.</p>
+    </div>
+
+    <div class="contact-wrap">
+      <div class="contact-info reveal">
+        <h3>Contact Details</h3>
+        <p>Reach PowerFix Electrician directly through any of the channels below.</p>
+
+        <div class="contact-item">
+          <span class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+          <div><small>Phone / Call</small><a href="tel:+919395744401">+91 93957 44401</a></div>
+        </div>
+        <div class="contact-item">
+          <span class="icon-wrap"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5s-.6-1.5-.9-2c-.2-.5-.5-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg></span>
+          <div><small>WhatsApp</small><a href="https://wa.me/919395744401" target="_blank" rel="noopener">+91 93957 44401</a></div>
+        </div>
+        <div class="contact-item">
+          <span class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="m3 7 9 6 9-6M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg></span>
+          <div><small>Email</small><a href="mailto:rajdev9101@gmail.com">rajdev9101@gmail.com</a></div>
+        </div>
+        <div class="contact-item">
+          <span class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4.5 8-11a8 8 0 1 0-16 0c0 6.5 8 11 8 11z"/><circle cx="12" cy="11" r="3"/></svg></span>
+          <div><small>Service Area</small><span class="txt">Lumding, Assam, India — 782447</span></div>
+        </div>
+
+        <div class="hours-box">
+          <small>Business Hours</small>
+          <div class="hours-row"><span>Monday – Saturday</span><b>9:00 AM – 8:00 PM</b></div>
+          <div class="hours-row"><span>Sunday</span><b>Emergency Only</b></div>
+        </div>
+
+        <div class="contact-socials">
+          <a href="https://www.facebook.com/share/1EBUsRfMwN/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></a>
+          <a href="https://www.instagram.com/itz_dminem_official43?igsh=MTZpNGMwOGwwMWl5dA==" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="m10 9 5 3-5 3z"/></svg></a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/xojgrzba" method="POST">
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 00000 00000" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="service">Service Required</label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option>Home Wiring</option>
+            <option>Fan & Light Installation</option>
+            <option>MCB & Switchboard Repair</option>
+            <option>Inverter & Battery Setup</option>
+            <option>CCTV Installation</option>
+            <option>Emergency Electrical Service</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Briefly describe the issue or job..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark btn-block" id="submitBtn">Send Request</button>
+        <p class="form-note">We usually reply within 30 minutes during working hours.</p>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="logo" style="margin-bottom:14px;">
+        <span class="logo-mark"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 3 14h7l-1 8 11-14h-7l0-6z"/></svg></span>
+        Power<span>Fix</span>
+      </a>
+      <p>Licensed electricians providing safe, reliable residential and commercial electrical services — day or night.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#shop">Shop Components</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Home Wiring</a></li>
+        <li><a href="#services">Fan &amp; Light Installation</a></li>
+        <li><a href="#services">MCB &amp; Switchboard Repair</a></li>
+        <li><a href="#services">Inverter &amp; Battery Setup</a></li>
+        <li><a href="#services">CCTV Installation</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+919395744401">+91 93957 44401</a></li>
+        <li><a href="mailto:rajdev9101@gmail.com">rajdev9101@gmail.com</a></li>
+        <li><span style="color:rgba(255,255,255,0.6); font-size:.9rem;">Lumding, Assam — 782447</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; <span id="year"></span> PowerFix Electrician. All rights reserved.</span>
+    <span>Built with care for safe electrical work.</span>
+  </div>
+</footer>
+
+<!-- ============ FLOATING WHATSAPP ============ -->
+<a href="https://wa.me/919395744401?text=Hi%20PowerFix%2C%20I%20need%20an%20electrician." target="_blank" rel="noopener" class="floating-wa" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5s-.6-1.5-.9-2c-.2-.5-.5-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+</a>
+
+<script>
+/* ==========================================================
+   CONFIG — edit these values to rebrand the site quickly
+   ========================================================== */
+const CONFIG = {
+  businessName: "PowerFix Electrician",
+  phone: "+919395744401",       // used for tel: links (E.164, no spaces)
+  whatsapp: "919395744401",     // used for wa.me links (no + sign)
+  email: "rajdev9101@gmail.com",
+  address: "Lumding, Assam, India — 782447"
+};
+
+/* ==========================================================
+   SHOP / COMPONENTS CATALOG
+   - PRODUCTS: edit/add items here as {n:"Name", c:"Category"}
+   - Add a real price by adding p:"₹199" to any product object
+   - No price set -> card shows "Contact for Price"
+   ========================================================== */
+const PRODUCT_CATEGORIES = ["Basic Components", "Displays & Audio", "Development Boards", "Sensors", "Communication Modules", "Motors, Actuators & Drivers", "Power & Battery", "Relays & Timers", "Robotics & 3D Printing", "Connectors, Wires & Hardware", "Tools & Test Equipment", "Power Tools & Equipment"];
+const PRODUCTS = [
+{n:"Carbon Film Resistors",c:"Basic Components"},
+{n:"Metal Film Resistors",c:"Basic Components"},
+{n:"Wirewound Resistors",c:"Basic Components"},
+{n:"Variable Resistors (Potentiometers)",c:"Basic Components"},
+{n:"Trimmer Potentiometers",c:"Basic Components"},
+{n:"SMD Resistors",c:"Basic Components"},
+{n:"Ceramic Capacitors",c:"Basic Components",p:"₹89"},
+{n:"Electrolytic Capacitors",c:"Basic Components",p:"₹19"},
+{n:"Tantalum Capacitors",c:"Basic Components"},
+{n:"Polyester Film Capacitors",c:"Basic Components"},
+{n:"Variable Capacitors",c:"Basic Components"},
+{n:"SMD Capacitors",c:"Basic Components"},
+{n:"Rectifier Diodes (1N4007)",c:"Basic Components",p:"₹19"},
+{n:"Zener Diodes",c:"Basic Components"},
+{n:"Schottky Diodes",c:"Basic Components"},
+{n:"LEDs (Red, Green, Blue, White, Yellow)",c:"Basic Components"},
+{n:"RGB LEDs",c:"Basic Components"},
+{n:"High Watt Power LEDs",c:"Basic Components"},
+{n:"SMD LEDs",c:"Basic Components"},
+{n:"Choke Coils",c:"Basic Components"},
+{n:"Ferrite Beads",c:"Basic Components"},
+{n:"SMD Inductors",c:"Basic Components"},
+{n:"BJT Transistors (BC547, BC557, 2N2222, TIP122)",c:"Basic Components"},
+{n:"MOSFET Transistors (IRF540, IRFZ44N)",c:"Basic Components",p:"₹39"},
+{n:"Darlington Transistors",c:"Basic Components"},
+{n:"NE555 Timer IC",c:"Basic Components",p:"₹19"},
+{n:"74HC Series Logic ICs",c:"Basic Components"},
+{n:"CD4000 Series Logic ICs",c:"Basic Components"},
+{n:"Operational Amplifiers (LM358, LM741)",c:"Basic Components",p:"₹19"},
+{n:"Optocouplers (PC817)",c:"Basic Components",p:"₹19"},
+{n:"MCP23017 I2C I/O Expander Modules",c:"Basic Components"},
+{n:"PCF8574 I/O Expansion Boards",c:"Basic Components"},
+{n:"PCA9685 16-Channel PWM Drivers",c:"Basic Components"},
+{n:"CD74HC4067 16-Channel Analog Multiplexers",c:"Basic Components"},
+{n:"74HC595 Shift Register Modules",c:"Basic Components",p:"₹19"},
+{n:"MAX7219 Dot Matrix Display Driver Modules",c:"Basic Components",p:"₹59"},
+{n:"ULN2003 Darlington Transistor Driver Boards",c:"Basic Components"},
+{n:"RTC Modules (DS1307, DS3231)",c:"Basic Components"},
+{n:"ADS1115 16-Bit 4-Channel ADC Module",c:"Basic Components"},
+{n:"Laser Diodes and Laser Transmitter Modules",c:"Basic Components"},
+{n:"IR Transmitter and Receiver Diodes",c:"Basic Components",p:"₹29"},
+{n:"Slide Potentiometers (Linear Faders)",c:"Basic Components"},
+{n:"Multi-Turn Precision Potentiometers",c:"Basic Components"},
+{n:"Trimpot Resistor Assortment Kits",c:"Basic Components"},
+{n:"Piezo Spark Igniters",c:"Basic Components"},
+{n:"Resistor Color Code Guide Cards",c:"Basic Components"},
+{n:"ATmega328P Microcontroller IC (with Bootloader)",c:"Basic Components"},
+{n:"ATmega16A / ATmega32A Microcontroller ICs",c:"Basic Components"},
+{n:"ATtiny85 Microcontroller IC",c:"Basic Components"},
+{n:"PIC Microcontrollers (PIC16F877A)",c:"Basic Components"},
+{n:"7-Segment Displays",c:"Displays & Audio"},
+{n:"Dot Matrix Displays",c:"Displays & Audio"},
+{n:"LCD Displays (16x2, 20x4)",c:"Displays & Audio"},
+{n:"OLED Displays",c:"Displays & Audio"},
+{n:"TFT Touch Screens",c:"Displays & Audio"},
+{n:"TM1637 4-Digit 7-Segment Display Modules",c:"Displays & Audio"},
+{n:"Nokia 5110 LCD Displays",c:"Displays & Audio"},
+{n:"ST7735 1.8-Inch TFT Color Displays",c:"Displays & Audio"},
+{n:"ILI9341 2.2-Inch TFT Touch Screens",c:"Displays & Audio"},
+{n:"SSD1306 0.96-Inch OLED Displays",c:"Displays & Audio"},
+{n:"SSD1309 2.42-Inch OLED Displays",c:"Displays & Audio"},
+{n:"E-Paper Displays (2.9-Inch, 4.2-Inch)",c:"Displays & Audio"},
+{n:"DFPlayer Pro MP3 Modules",c:"Displays & Audio"},
+{n:"SYN6288 Text-to-Speech Modules",c:"Displays & Audio"},
+{n:"ISD1820 Voice Recording and Playback Modules",c:"Displays & Audio"},
+{n:"WT588D Voice Sound Modules",c:"Displays & Audio"},
+{n:"TPA3116D2 Dual Channel Amplifiers",c:"Displays & Audio"},
+{n:"PAM8610 15W+15W Dual Channel Audio Amplifiers",c:"Displays & Audio"},
+{n:"Bluetooth Audio Receiver Boards",c:"Displays & Audio"},
+{n:"FM Radio Receiver Modules",c:"Displays & Audio"},
+{n:"Audio Amplifier ICs (TDA2030, PAM8403)",c:"Displays & Audio"},
+{n:"Piezo Buzzers (Active and Passive)",c:"Displays & Audio"},
+{n:"Mini DC Speakers",c:"Displays & Audio"},
+{n:"MP3 Player Modules (DFPlayer Mini)",c:"Displays & Audio"},
+{n:"VS1053 MP3 / Audio Codec Modules",c:"Displays & Audio"},
+{n:"Audio Amplifier Boards (TDA7297, TPA3116D2)",c:"Displays & Audio"},
+{n:"Electret Condenser Microphones",c:"Displays & Audio"},
+{n:"Piezoelectric Discs (Buzzer Elements)",c:"Displays & Audio"},
+{n:"Thermal Printers (TTL Serial Receipt Printers)",c:"Displays & Audio"},
+{n:"Arduino Uno",c:"Development Boards",p:"₹549"},
+{n:"Arduino Nano",c:"Development Boards",p:"₹299"},
+{n:"Arduino Mega",c:"Development Boards",p:"₹949"},
+{n:"Arduino Pro Mini",c:"Development Boards",p:"₹249"},
+{n:"Arduino Leonardo",c:"Development Boards"},
+{n:"Arduino Due",c:"Development Boards"},
+{n:"Arduino Zero",c:"Development Boards"},
+{n:"Teensy 3.2",c:"Development Boards"},
+{n:"Teensy 4.0 / 4.1",c:"Development Boards"},
+{n:"NodeMCU ESP32S",c:"Development Boards"},
+{n:"ESP-WROOM-32",c:"Development Boards"},
+{n:"ESP8266 NodeMCU",c:"Development Boards",p:"₹299"},
+{n:"ESP32",c:"Development Boards",p:"₹449"},
+{n:"ESP32-CAM",c:"Development Boards"},
+{n:"ESP32-CAM AI-Thinker Module with OV2640",c:"Development Boards"},
+{n:"Raspberry Pi Pico",c:"Development Boards",p:"₹499"},
+{n:"Raspberry Pi 4B / 5",c:"Development Boards"},
+{n:"Raspberry Pi Zero 2 W",c:"Development Boards"},
+{n:"Raspberry Pi Compute Modules",c:"Development Boards"},
+{n:"STM32 Development Boards",c:"Development Boards"},
+{n:"Particle Boron",c:"Development Boards"},
+{n:"Particle Argon",c:"Development Boards"},
+{n:"Adafruit Feather Boards",c:"Development Boards"},
+{n:"Adafruit Circuit Playground",c:"Development Boards"},
+{n:"BBC micro:bit",c:"Development Boards"},
+{n:"PyBoard",c:"Development Boards"},
+{n:"Orange Pi Zero",c:"Development Boards"},
+{n:"Banana Pi M3",c:"Development Boards"},
+{n:"Odroid C4",c:"Development Boards"},
+{n:"Banana Pi / Orange Pi Development Boards",c:"Development Boards"},
+{n:"Arduino Sensor Shield",c:"Development Boards"},
+{n:"NodeMCU ESP8266 Module",c:"Development Boards"},
+{n:"ESP32-WROOM-32 Module",c:"Development Boards"},
+{n:"NodeMCU Base Expansion Boards",c:"Development Boards"},
+{n:"AVR Programmers",c:"Development Boards"},
+{n:"DHT11 Temperature & Humidity Sensor",c:"Sensors",p:"₹149"},
+{n:"DHT22 Temperature & Humidity Sensor",c:"Sensors"},
+{n:"BMP180 Barometric Pressure Sensor",c:"Sensors"},
+{n:"BME280 Environment Sensor",c:"Sensors"},
+{n:"MQ Series Gas Sensors (MQ-2, MQ-3, MQ-135)",c:"Sensors"},
+{n:"PIR Motion Sensor",c:"Sensors",p:"₹99"},
+{n:"Ultrasonic Sensor (HC-SR04)",c:"Sensors",p:"₹69"},
+{n:"Accelerometer & Gyroscope (MPU6050)",c:"Sensors",p:"₹199"},
+{n:"Tilt Sensor",c:"Sensors"},
+{n:"Vibration Sensor",c:"Sensors"},
+{n:"IR Obstacle/Line Tracking Sensor",c:"Sensors"},
+{n:"Fingerprint Sensor Module",c:"Sensors"},
+{n:"OV2640 Camera Module",c:"Sensors"},
+{n:"Sound / Microphone Sensors (KY-037, MAX9814)",c:"Sensors"},
+{n:"Flame Sensors",c:"Sensors"},
+{n:"Rain Drop Sensors",c:"Sensors"},
+{n:"Soil Moisture Sensors",c:"Sensors",p:"₹59"},
+{n:"Water Level Sensors",c:"Sensors"},
+{n:"Light Dependent Resistors (LDR)",c:"Sensors"},
+{n:"TCS3200 Color Sensor",c:"Sensors",p:"₹299"},
+{n:"MAX30100 / MAX30102 Heart Rate & Pulse Oximeter Sensors",c:"Sensors"},
+{n:"MLX90614 Infrared Thermometer Sensor",c:"Sensors"},
+{n:"TTP223 Touch Sensor Modules",c:"Sensors"},
+{n:"Reed Switches",c:"Sensors"},
+{n:"Magnetic Door Contact Sensors",c:"Sensors"},
+{n:"Opto-Interrupter Modules",c:"Sensors"},
+{n:"Hall Effect Sensors (3144)",c:"Sensors"},
+{n:"Current Sensors (ACS712 - 5A, 20A, 30A)",c:"Sensors"},
+{n:"Voltage Sensor Modules",c:"Sensors"},
+{n:"Load Cell Weight Sensors (1kg, 5kg, 10kg, 50kg)",c:"Sensors"},
+{n:"HX711 Load Cell Amplifier Modules",c:"Sensors"},
+{n:"INA219 High Side DC Current Sensor Modules",c:"Sensors"},
+{n:"ACS758 Heavy Duty Current Sensors",c:"Sensors"},
+{n:"WCS1800 Current Sensors",c:"Sensors"},
+{n:"ZMPT101B AC Voltage Sensor Modules",c:"Sensors"},
+{n:"PZEM-004T AC Energy Meters",c:"Sensors"},
+{n:"SCT-013 Non-Invasive AC Current Clamp Sensors",c:"Sensors"},
+{n:"DS18B20 Waterproof Temperature Sensors",c:"Sensors"},
+{n:"PT100 RTD Temperature Sensors",c:"Sensors"},
+{n:"K-Type Thermocouple Probes with MAX6675 Modules",c:"Sensors"},
+{n:"SEN0193 Capacitive Soil Moisture Sensors",c:"Sensors"},
+{n:"MQ-138 Gas Sensors",c:"Sensors"},
+{n:"MQ-8 Hydrogen Gas Detectors",c:"Sensors"},
+{n:"MQ-9 Carbon Monoxide and Methane Sensors",c:"Sensors"},
+{n:"MG811 Carbon Dioxide CO2 Sensor Modules",c:"Sensors"},
+{n:"ZE08-CH2O Formaldehyde Gas Sensors",c:"Sensors"},
+{n:"MP503 Air Quality Sensor Modules",c:"Sensors"},
+{n:"SEN0248 Laser Dust Sensors",c:"Sensors"},
+{n:"PMS7003 Particulate Matter Air Sensors",c:"Sensors"},
+{n:"MiCS-5524 Gas Sensor Modules",c:"Sensors"},
+{n:"SEN0205 Liquid Flow Meters",c:"Sensors"},
+{n:"YF-B5 Water Flow Sensors",c:"Sensors"},
+{n:"FS400A Water Flow Switches",c:"Sensors"},
+{n:"DN25 Brass Water Flow Sensors",c:"Sensors"},
+{n:"Non-Invasive Liquid Level Sensors",c:"Sensors"},
+{n:"Optical Liquid Level Switches",c:"Sensors"},
+{n:"Float Level Switches",c:"Sensors"},
+{n:"Stainless Steel Float Switches",c:"Sensors"},
+{n:"Water Leak Detection Sensor Ropes",c:"Sensors"},
+{n:"Soil Salinity Sensors",c:"Sensors"},
+{n:"VL53L0X Time-of-Flight Laser Distance Sensors",c:"Sensors"},
+{n:"VL53L1X Long Range ToF Sensors",c:"Sensors"},
+{n:"GP2Y0A21YK0F Infrared Distance Sensors",c:"Sensors"},
+{n:"GP2Y0A02YK0F Sharp IR Sensors",c:"Sensors"},
+{n:"HC-SR05 Ultrasonic Sensors",c:"Sensors"},
+{n:"US-015 High Precision Ultrasonic Sensors",c:"Sensors"},
+{n:"TFmini Micro LiDAR Distance Sensors",c:"Sensors"},
+{n:"YD-LiDAR Kits",c:"Sensors"},
+{n:"RPLIDAR A1 360-Degree Laser Scanners",c:"Sensors"},
+{n:"ADXL345 3-Axis Accelerometers",c:"Sensors"},
+{n:"MPU9250 9-Axis Motion Tracking Sensors",c:"Sensors"},
+{n:"ICM-20948 9-Axis IMU Modules",c:"Sensors"},
+{n:"BNO055 9-Axis Absolute Orientation Sensors",c:"Sensors"},
+{n:"HMC5883L Triple Axis Magnetometer Compass Modules",c:"Sensors"},
+{n:"QMC5883L Digital Compass Modules",c:"Sensors"},
+{n:"ADXL335 Analog Accelerometers",c:"Sensors"},
+{n:"MMA7361 3-Axis Accelerometer Modules",c:"Sensors"},
+{n:"GY-302 BH1750 Digital Light Intensity Sensors",c:"Sensors"},
+{n:"TSL2561 Luminosity Sensor Modules",c:"Sensors"},
+{n:"APDS-9960 Proximity, Gesture and RGB Color Sensor Modules",c:"Sensors"},
+{n:"BH1750FVI Ambient Light Sensors",c:"Sensors"},
+{n:"VEML6075 UVA/UVB Ultraviolet Sensor Modules",c:"Sensors"},
+{n:"Si1145 UV Index IR Visible Light Sensors",c:"Sensors"},
+{n:"AD8232 ECG Heart Rate Monitor Modules",c:"Sensors"},
+{n:"Pulse Sensor Amped",c:"Sensors"},
+{n:"SEN0213 GSR Galvanic Skin Response Sensors",c:"Sensors"},
+{n:"Gravity Analog Sound Level Meters",c:"Sensors"},
+{n:"SEN0232 Speech Recognition Modules",c:"Sensors"},
+{n:"LD2410 24GHz Human Presence Radar Sensors",c:"Sensors"},
+{n:"HLK-LD2410C Millimeter Wave Radar Modules",c:"Sensors"},
+{n:"RCWL-0516 Microwave Radar Motion Detector Modules",c:"Sensors"},
+{n:"Filament Runout Sensors",c:"Sensors"},
+{n:"BLTouch Auto Bed Leveling Sensors",c:"Sensors"},
+{n:"Fingerprint Scanners (R305 / R307 optical)",c:"Sensors"},
+{n:"Laser Receiver Sensor Modules",c:"Sensors"},
+{n:"Color Recognition Sensors (TCS230 / TCS3200)",c:"Sensors"},
+{n:"UV Radiation Sensors (GUVA-S12SD)",c:"Sensors"},
+{n:"Solar Radiation & Light Intensity Sensors (BH1750)",c:"Sensors"},
+{n:"Turbidity Water Sensors",c:"Sensors"},
+{n:"TDS Meters / Sensors",c:"Sensors"},
+{n:"Flow Rate Sensors (Water Flow Meters - YF-S201)",c:"Sensors",p:"₹349"},
+{n:"pH Sensor Modules for Water Testing",c:"Sensors"},
+{n:"Flame Detection IR Sensors",c:"Sensors"},
+{n:"Alcohol Breathalyzer Modules (MQ-3)",c:"Sensors"},
+{n:"Carbon Monoxide Detectors (MQ-7)",c:"Sensors"},
+{n:"Methane / LPG Leak Detectors (MQ-6)",c:"Sensors"},
+{n:"Dust Sensors (GP2Y1010AU0F)",c:"Sensors"},
+{n:"Heart Rate & SpO2 Sensors (MAX30100)",c:"Sensors"},
+{n:"EMG Muscle Sensor Myoware Boards",c:"Sensors"},
+{n:"EEG Brain-Wave Sensor Modules",c:"Sensors"},
+{n:"Flex Sensors (Bending Sensors)",c:"Sensors"},
+{n:"Force Sensitive Resistors (FSR)",c:"Sensors"},
+{n:"Piezo Vibration Sensors",c:"Sensors"},
+{n:"Rotary Encoders (KY-040)",c:"Sensors"},
+{n:"NTC Thermistors (100K for 3D Printers)",c:"Sensors"},
+{n:"Bluetooth Module (HC-05, HC-06)",c:"Communication Modules",p:"₹349"},
+{n:"NRF24L01 Wireless Module",c:"Communication Modules",p:"₹89"},
+{n:"GSM Module (SIM800L)",c:"Communication Modules",p:"₹499"},
+{n:"RFID Reader (RC522)",c:"Communication Modules",p:"₹199"},
+{n:"FT232H USB to SPI/I2C/UART Interface Converters",c:"Communication Modules"},
+{n:"CP2112 USB to I2C Communication Bridges",c:"Communication Modules"},
+{n:"CH341A USB Programmer Boards",c:"Communication Modules"},
+{n:"USB to RS485 Converters",c:"Communication Modules"},
+{n:"RS232 to RS485 Bi-Directional Converters",c:"Communication Modules"},
+{n:"Ethernet to Serial TCP/IP Server Modules",c:"Communication Modules"},
+{n:"Serial to Wi-Fi Modules (USR-W610)",c:"Communication Modules"},
+{n:"SIM800C GSM/GPRS Shield Boards",c:"Communication Modules"},
+{n:"A6 GSM/GPRS Modules",c:"Communication Modules"},
+{n:"SIM7000C NB-IoT/LTE-M/GPS All-in-One Modules",c:"Communication Modules"},
+{n:"SIM7600CE 4G LTE Modules with GNSS",c:"Communication Modules"},
+{n:"SIM808 GPS/GSM Tracking Modules",c:"Communication Modules"},
+{n:"ATGM336H GPS/BDS Dual-Mode Navigation Modules",c:"Communication Modules"},
+{n:"NEO-M8N High Precision GPS Modules",c:"Communication Modules"},
+{n:"RTK GPS Base Stations",c:"Communication Modules"},
+{n:"SX1280 2.4GHz LoRa Modules",c:"Communication Modules"},
+{n:"HopeRF RFM95W LoRa Transceiver Modules",c:"Communication Modules"},
+{n:"RFM69HCW High Power RF Transceiver Modules",c:"Communication Modules"},
+{n:"CC1101 Wireless Transceiver Modules",c:"Communication Modules"},
+{n:"NRF905 Wireless Data Transmission Modules",c:"Communication Modules"},
+{n:"APC220 Wireless RF Communication Modules",c:"Communication Modules"},
+{n:"HC-12 SI4438 Wireless Serial Modules",c:"Communication Modules"},
+{n:"E32-TTL-100 LoRa Modules",c:"Communication Modules"},
+{n:"LoRa SX1276 / SX1278 Wireless Modules",c:"Communication Modules"},
+{n:"Zigbee Modules (CC2530)",c:"Communication Modules"},
+{n:"nRF52832 Bluetooth Low Energy (BLE) Module",c:"Communication Modules"},
+{n:"SIM900A GSM/GPRS Module",c:"Communication Modules"},
+{n:"GPS Modules (NEO-6M, NEO-M8N)",c:"Communication Modules",p:"₹549"},
+{n:"Ethernet Module (ENC28J60, W5500)",c:"Communication Modules"},
+{n:"USB to TTL Converters (CP2102, CH340, FT232RL)",c:"Communication Modules"},
+{n:"MAX232 RS232 to TTL Communication ICs",c:"Communication Modules"},
+{n:"CAN Bus Modules (MCP2515)",c:"Communication Modules"},
+{n:"RFID Keyfobs and Cards",c:"Communication Modules"},
+{n:"RFID ID/IC Card Writers and Copiers",c:"Communication Modules"},
+{n:"SIM7600 4G LTE Communication Modules",c:"Communication Modules"},
+{n:"SX1262 High Power LoRa Modules",c:"Communication Modules"},
+{n:"nRF24L01+ with PA and LNA Antenna Modules",c:"Communication Modules"},
+{n:"MAX485 TTL to RS485 Communication Modules",c:"Communication Modules"},
+{n:"Bluetooth Low Energy Beacons",c:"Communication Modules"},
+{n:"Arduino Motor Shield",c:"Motors, Actuators & Drivers"},
+{n:"L293D Motor Shield Boards",c:"Motors, Actuators & Drivers"},
+{n:"DC Toy Motors",c:"Motors, Actuators & Drivers",p:"₹19"},
+{n:"BO Motors (Single and Dual Shaft)",c:"Motors, Actuators & Drivers",p:"₹69"},
+{n:"Stepper Motors (NEMA 17, 28BYJ-48)",c:"Motors, Actuators & Drivers"},
+{n:"Servo Motors (SG90, MG996R)",c:"Motors, Actuators & Drivers",p:"₹149"},
+{n:"Coreless Motors",c:"Motors, Actuators & Drivers"},
+{n:"Mini Submersible Water Pumps",c:"Motors, Actuators & Drivers"},
+{n:"L298N Motor Driver",c:"Motors, Actuators & Drivers",p:"₹199"},
+{n:"L293D Motor Driver",c:"Motors, Actuators & Drivers",p:"₹49"},
+{n:"PCA9685 Servo Driver",c:"Motors, Actuators & Drivers"},
+{n:"MOSFET Driver Modules (F530N / IRF520)",c:"Motors, Actuators & Drivers"},
+{n:"PWM DC Motor Speed Controllers",c:"Motors, Actuators & Drivers"},
+{n:"Linear Actuators (12V)",c:"Motors, Actuators & Drivers"},
+{n:"Solenoid Valves (Water and Air)",c:"Motors, Actuators & Drivers"},
+{n:"Mini Air Pumps (12V / 6V)",c:"Motors, Actuators & Drivers"},
+{n:"High Torque DC Gear Motors",c:"Motors, Actuators & Drivers"},
+{n:"Heavy Duty Window Wiper Motors",c:"Motors, Actuators & Drivers"},
+{n:"Worm Gear DC Motors",c:"Motors, Actuators & Drivers"},
+{n:"Planetary Gearbox DC Motors",c:"Motors, Actuators & Drivers"},
+{n:"Coreless Micro Motors (7x20mm, 8x20mm)",c:"Motors, Actuators & Drivers"},
+{n:"High Speed Brushless DC Motors (BLDC)",c:"Motors, Actuators & Drivers"},
+{n:"Outrunner Brushless Motors for Drones",c:"Motors, Actuators & Drivers"},
+{n:"ESC (Electronic Speed Controllers for Drones)",c:"Motors, Actuators & Drivers"},
+{n:"Propellers (CW and CCW Plastic/Carbon Fiber)",c:"Motors, Actuators & Drivers"},
+{n:"Quadcopter Drone Frames",c:"Motors, Actuators & Drivers"},
+{n:"Heavy Duty Linear Actuators with Feedback",c:"Motors, Actuators & Drivers"},
+{n:"Micro Linear Actuators (5V/12V)",c:"Motors, Actuators & Drivers"},
+{n:"Electric Rolling Shutter Motors",c:"Motors, Actuators & Drivers"},
+{n:"DC Miniature Solenoids (Push-Pull Type)",c:"Motors, Actuators & Drivers"},
+{n:"Heavy Duty Electromagnets (100kg holding force)",c:"Motors, Actuators & Drivers"},
+{n:"Piezoelectric Ultrasonic Transducers",c:"Motors, Actuators & Drivers"},
+{n:"Shape Memory Alloy Spring Actuators",c:"Motors, Actuators & Drivers"},
+{n:"Peristaltic Dosing Pumps (12V/24V)",c:"Motors, Actuators & Drivers"},
+{n:"High Pressure Diaphragm Water Pumps",c:"Motors, Actuators & Drivers"},
+{n:"DC Brushless Cooling Fans (5V, 12V, 24V)",c:"Motors, Actuators & Drivers"},
+{n:"Radial Blower Fans (Turbo Fans)",c:"Motors, Actuators & Drivers"},
+{n:"Water Cooling Pumps for PC/Projects",c:"Motors, Actuators & Drivers"},
+{n:"Pneumatic Air Valves and Tubing",c:"Motors, Actuators & Drivers"},
+{n:"Mini Vacuum Pumps (12V)",c:"Motors, Actuators & Drivers"},
+{n:"Solenoid Door Locks (12V Electronic Latches)",c:"Motors, Actuators & Drivers"},
+{n:"Electromagnets (Heavy Duty 12V / 24V Lifting Magnets)",c:"Motors, Actuators & Drivers"},
+{n:"Shape Memory Alloy (SMA) Wires",c:"Motors, Actuators & Drivers"},
+{n:"Piezo Actuators",c:"Motors, Actuators & Drivers"},
+{n:"A4988 Stepper Motor Driver Modules",c:"Motors, Actuators & Drivers"},
+{n:"DRV8825 Stepper Motor Drivers",c:"Motors, Actuators & Drivers"},
+{n:"TMC2208 / TMC2209 Ultra-Silent Stepper Drivers",c:"Motors, Actuators & Drivers"},
+{n:"TB6600 High Power Stepper Motor Drivers",c:"Motors, Actuators & Drivers"},
+{n:"Voltage Regulator ICs (7805, 7812, 7905, LM317, AMS1117)",c:"Power & Battery"},
+{n:"Step-down DC-DC Converter (LM2596)",c:"Power & Battery",p:"₹149"},
+{n:"Step-up DC-DC Converter (XL6009)",c:"Power & Battery",p:"₹149"},
+{n:"Li-ion Cells (18650)",c:"Power & Battery",p:"₹149"},
+{n:"LiPo Batteries (3.7V, 7.4V, 11.1V)",c:"Power & Battery"},
+{n:"9V Batteries",c:"Power & Battery"},
+{n:"Coin Cell Batteries (CR2032)",c:"Power & Battery"},
+{n:"Lead-Acid Batteries",c:"Power & Battery"},
+{n:"TP4056 Li-ion Charging Modules",c:"Power & Battery",p:"₹39"},
+{n:"Battery Management Systems (BMS - 1S, 2S, 3S, 4S)",c:"Power & Battery"},
+{n:"Battery Holders",c:"Power & Battery"},
+{n:"5V SMPS Power Supplies",c:"Power & Battery"},
+{n:"12V SMPS Power Supplies",c:"Power & Battery",p:"₹249"},
+{n:"Breadboard Power Supply (MB102)",c:"Power & Battery",p:"₹79"},
+{n:"RTC Battery CR2032 Holders",c:"Power & Battery"},
+{n:"MP1584EN Ultra Small DC-DC Step-Down Buck Converters",c:"Power & Battery"},
+{n:"XL4015 5A Step-Down Adjustable Regulators",c:"Power & Battery"},
+{n:"XL4016 8A High Power Buck Converters",c:"Power & Battery"},
+{n:"LM2577 Step-Up Boost Modules",c:"Power & Battery"},
+{n:"MT3608 DC-DC Boost Converters",c:"Power & Battery"},
+{n:"XL6019 High Power Boost Modules",c:"Power & Battery"},
+{n:"TPS61030 High Efficiency Boost Converters",c:"Power & Battery"},
+{n:"LM7809 Voltage Regulators",c:"Power & Battery"},
+{n:"LM7824 Voltage Regulators",c:"Power & Battery"},
+{n:"LT1083 High Current Adjustable Linear Regulators",c:"Power & Battery"},
+{n:"LiFePO4 Battery Cells (32650, 26650)",c:"Power & Battery"},
+{n:"Nickel-Metal Hydride (NiMH) Rechargeable Cells",c:"Power & Battery"},
+{n:"Button Cell CR2032 Holders with Leads",c:"Power & Battery"},
+{n:"18650 Battery Spot Welders",c:"Power & Battery"},
+{n:"Nickel Strip Rolls for Battery Pack Making",c:"Power & Battery"},
+{n:"Heat Resistant Battery Insulator Paper Rings",c:"Power & Battery"},
+{n:"BMS 3S/4S/5S with Balance Charging Circuits",c:"Power & Battery",p:"₹149"},
+{n:"Smart BMS with Bluetooth and UART",c:"Power & Battery"},
+{n:"IMAX B6 Battery Balance Chargers",c:"Power & Battery"},
+{n:"12V Lead-Acid Battery Smart Chargers",c:"Power & Battery"},
+{n:"Peltier Thermoelectric Coolers (TEC1-12706)",c:"Power & Battery"},
+{n:"High Voltage Boost Step-Up Generators",c:"Power & Battery"},
+{n:"Tesla Coil DIY Kits",c:"Power & Battery"},
+{n:"Marx Generator Kits",c:"Power & Battery"},
+{n:"Cockcroft-Walton Voltage Multipliers",c:"Power & Battery"},
+{n:"Ignition Coils for Projects",c:"Power & Battery"},
+{n:"Relay Modules (1-channel, 2-channel, 4-channel, 8-channel)",c:"Relays & Timers"},
+{n:"Solid State Relays (SSR-40DA, SSR-25DA)",c:"Relays & Timers"},
+{n:"16-Channel Optocoupler Relay Boards",c:"Relays & Timers"},
+{n:"Bistable Latching Relay Modules",c:"Relays & Timers"},
+{n:"Time Delay Relay Modules",c:"Relays & Timers"},
+{n:"Multifunction Timer Control Panels",c:"Relays & Timers"},
+{n:"Overvoltage and Undervoltage Protection Relay Boards",c:"Relays & Timers"},
+{n:"Solid State Relays (SSR)",c:"Relays & Timers"},
+{n:"Electromagnetic Relays (5V, 12V)",c:"Relays & Timers"},
+{n:"Opto-Isolated Relay Boards",c:"Relays & Timers"},
+{n:"3D Printer Controller Boards",c:"Robotics & 3D Printing"},
+{n:"Filament Dryers",c:"Robotics & 3D Printing"},
+{n:"PTFE Teflon Tubes",c:"Robotics & 3D Printing"},
+{n:"Bowden Extruders",c:"Robotics & 3D Printing"},
+{n:"Stepper Motor Heat Sinks",c:"Robotics & 3D Printing"},
+{n:"Endstop Mechanical Switches",c:"Robotics & 3D Printing"},
+{n:"Optical Limit Switches",c:"Robotics & 3D Printing"},
+{n:"Print Surface PEI Sheets",c:"Robotics & 3D Printing"},
+{n:"2WD Robotics Chassis",c:"Robotics & 3D Printing"},
+{n:"4WD Robotics Chassis",c:"Robotics & 3D Printing"},
+{n:"Smart Robot Car Kits",c:"Robotics & 3D Printing"},
+{n:"Rubber Tyres for Robots",c:"Robotics & 3D Printing"},
+{n:"Caster Wheels",c:"Robotics & 3D Printing"},
+{n:"Mecanum Wheels",c:"Robotics & 3D Printing"},
+{n:"Linear Guide Rails and Slider Blocks",c:"Robotics & 3D Printing"},
+{n:"Lead Screws with Nuts (T8 Screws)",c:"Robotics & 3D Printing"},
+{n:"Timing Belts and Pulleys (GT2 System)",c:"Robotics & 3D Printing"},
+{n:"Flexible Shaft Couplings (Aluminum Couplers)",c:"Robotics & 3D Printing"},
+{n:"Nema 17 Stepper Motor Dampers",c:"Robotics & 3D Printing"},
+{n:"CNC Shield V3 for Arduino",c:"Robotics & 3D Printing"},
+{n:"RAMPS 1.4 / 1.6 3D Printer Controller Boards",c:"Robotics & 3D Printing"},
+{n:"3D Printer Extruder Hotends and Nozzles",c:"Robotics & 3D Printing"},
+{n:"Heated Beds for 3D Printers",c:"Robotics & 3D Printing"},
+{n:"GT2 Timing Belts and Tensioners",c:"Robotics & 3D Printing"},
+{n:"Corrugated Plastic Sheets for Robotics",c:"Robotics & 3D Printing"},
+{n:"Acrylic Sheets (Laser Cut Grade)",c:"Robotics & 3D Printing"},
+{n:"PVC Foam Boards",c:"Robotics & 3D Printing"},
+{n:"Carbon Fiber Rods and Tubes",c:"Robotics & 3D Printing"},
+{n:"Aluminum Extrusion Profiles (2020, 2040 Series)",c:"Robotics & 3D Printing"},
+{n:"T-Nuts and Spring Nuts for Aluminum Extrusion",c:"Robotics & 3D Printing"},
+{n:"Corner Brackets and Joiner Plates",c:"Robotics & 3D Printing"},
+{n:"Slide-in Drop-in T-Nuts",c:"Robotics & 3D Printing"},
+{n:"Heat Shrink Tubes",c:"Connectors, Wires & Hardware",p:"₹99"},
+{n:"Large Breadboards",c:"Connectors, Wires & Hardware"},
+{n:"Small Breadboards",c:"Connectors, Wires & Hardware"},
+{n:"Jumper Wires (Male-to-Male, Male-to-Female, Female-to-Female)",c:"Connectors, Wires & Hardware",p:"₹49"},
+{n:"Ribbon Cables",c:"Connectors, Wires & Hardware"},
+{n:"Hook-up Wires",c:"Connectors, Wires & Hardware"},
+{n:"Perfboards",c:"Connectors, Wires & Hardware"},
+{n:"Zero PCBs",c:"Connectors, Wires & Hardware"},
+{n:"Copper Clad Boards",c:"Connectors, Wires & Hardware"},
+{n:"Zip Ties",c:"Connectors, Wires & Hardware"},
+{n:"Heat Sinks",c:"Connectors, Wires & Hardware"},
+{n:"Nylon Spacers and Standoffs",c:"Connectors, Wires & Hardware"},
+{n:"Brass Standoffs",c:"Connectors, Wires & Hardware"},
+{n:"Matrix Keypads (4x4, 4x3)",c:"Connectors, Wires & Hardware",p:"₹49"},
+{n:"Push Button Switches (Tactile Switches)",c:"Connectors, Wires & Hardware"},
+{n:"Slide Switches",c:"Connectors, Wires & Hardware"},
+{n:"Toggle Switches",c:"Connectors, Wires & Hardware",p:"₹39"},
+{n:"DIP Switches",c:"Connectors, Wires & Hardware",p:"₹19"},
+{n:"Rocker Switches",c:"Connectors, Wires & Hardware",p:"₹19"},
+{n:"Limit Switches",c:"Connectors, Wires & Hardware",p:"₹29"},
+{n:"Joystick Modules",c:"Connectors, Wires & Hardware"},
+{n:"Heat Sinks with Fans for Peltier",c:"Connectors, Wires & Hardware"},
+{n:"Thermal Paste / Compound",c:"Connectors, Wires & Hardware"},
+{n:"Copper Heat Sinks",c:"Connectors, Wires & Hardware"},
+{n:"Aluminum Enclosures / Project Boxes",c:"Connectors, Wires & Hardware"},
+{n:"Plastic ABS Project Boxes",c:"Connectors, Wires & Hardware"},
+{n:"Waterproof Junction Boxes",c:"Connectors, Wires & Hardware"},
+{n:"Female DC Power Jacks",c:"Connectors, Wires & Hardware"},
+{n:"Male DC Power Plugs",c:"Connectors, Wires & Hardware"},
+{n:"USB Type-A Connectors",c:"Connectors, Wires & Hardware"},
+{n:"Micro USB Connectors",c:"Connectors, Wires & Hardware"},
+{n:"Type-C USB Connectors",c:"Connectors, Wires & Hardware"},
+{n:"Mini USB Connectors",c:"Connectors, Wires & Hardware"},
+{n:"Audio Jacks (3.5mm Mono & Stereo)",c:"Connectors, Wires & Hardware"},
+{n:"RCA Connectors",c:"Connectors, Wires & Hardware"},
+{n:"Banana Plugs and Jacks",c:"Connectors, Wires & Hardware"},
+{n:"Alligator Clips (Crocodile Clips)",c:"Connectors, Wires & Hardware"},
+{n:"IC Sockets (8-pin, 14-pin, 16-pin, 28-pin, 40-pin)",c:"Connectors, Wires & Hardware"},
+{n:"Berg Strips (Male and Female)",c:"Connectors, Wires & Hardware"},
+{n:"Pin Headers (Breakaway headers)",c:"Connectors, Wires & Hardware"},
+{n:"Screw Terminal Blocks (2-pin, 3-pin)",c:"Connectors, Wires & Hardware"},
+{n:"IDC Connectors and Flat Ribbons",c:"Connectors, Wires & Hardware"},
+{n:"Heat Shrinkable Sleeves",c:"Connectors, Wires & Hardware"},
+{n:"Electrical Insulation Tape",c:"Connectors, Wires & Hardware"},
+{n:"Double-Sided Foam Tape",c:"Connectors, Wires & Hardware"},
+{n:"SMD Practice PCBs",c:"Connectors, Wires & Hardware"},
+{n:"Silicon Tubing / Pipes for Water Pumps",c:"Connectors, Wires & Hardware"},
+{n:"Polyimide Kapton Tape",c:"Connectors, Wires & Hardware"},
+{n:"High-Temperature Teflon Tape",c:"Connectors, Wires & Hardware"},
+{n:"Masking Tape",c:"Connectors, Wires & Hardware"},
+{n:"Self-Fusing Silicone Tape",c:"Connectors, Wires & Hardware"},
+{n:"Plastic Rivets and Push Pins",c:"Connectors, Wires & Hardware"},
+{n:"Nylon Cable Glands",c:"Connectors, Wires & Hardware"},
+{n:"Waterproof Cable Connectors (GX12, GX16 Aviation Plugs)",c:"Connectors, Wires & Hardware"},
+{n:"Heavy Duty Terminal Strips",c:"Connectors, Wires & Hardware"},
+{n:"Ceramic Terminal Blocks",c:"Connectors, Wires & Hardware"},
+{n:"Bus Bars",c:"Connectors, Wires & Hardware"},
+{n:"Copper Lug Terminals",c:"Connectors, Wires & Hardware"},
+{n:"Heat Shrink Solder Seal Wire Connectors",c:"Connectors, Wires & Hardware"},
+{n:"Bullet Connectors",c:"Connectors, Wires & Hardware"},
+{n:"Spade Terminals (Male and Female)",c:"Connectors, Wires & Hardware"},
+{n:"Ring Terminals",c:"Connectors, Wires & Hardware"},
+{n:"Wire Ferrule Terminals (Bootlace Ferrules)",c:"Connectors, Wires & Hardware"},
+{n:"Anti-Static Bags",c:"Connectors, Wires & Hardware"},
+{n:"Soldering Iron Tips (T12 series, 900M series)",c:"Tools & Test Equipment"},
+{n:"Soldering Iron Stands with Cleaning Sponges",c:"Tools & Test Equipment"},
+{n:"Brass Wire Tip Cleaners",c:"Tools & Test Equipment"},
+{n:"Lead-Free Solder Wire",c:"Tools & Test Equipment"},
+{n:"Rosin Core Solder Wire",c:"Tools & Test Equipment"},
+{n:"Liquid Soldering Flux Pens",c:"Tools & Test Equipment"},
+{n:"No-Clean Flux Paste",c:"Tools & Test Equipment"},
+{n:"Desoldering Braid Wicks",c:"Tools & Test Equipment"},
+{n:"Thermal Conductive Silicone Grease",c:"Tools & Test Equipment"},
+{n:"UV Curing Solder Mask Inks",c:"Tools & Test Equipment"},
+{n:"PCB Drill Bits",c:"Tools & Test Equipment"},
+{n:"Mini Hand Drills",c:"Tools & Test Equipment"},
+{n:"Pin Vices",c:"Tools & Test Equipment"},
+{n:"Ceramic Tweezers",c:"Tools & Test Equipment"},
+{n:"ESD Safe Cleaning Brushes",c:"Tools & Test Equipment"},
+{n:"Magnifying Lamps with LED Lights",c:"Tools & Test Equipment"},
+{n:"Digital Multimeter Clamp Meters",c:"Tools & Test Equipment",p:"₹849"},
+{n:"LCR Meters",c:"Tools & Test Equipment"},
+{n:"Insulation Resistance Testers",c:"Tools & Test Equipment"},
+{n:"DC Bench Power Supplies",c:"Tools & Test Equipment"},
+{n:"Programmable Electronic DC Loads",c:"Tools & Test Equipment"},
+{n:"Function Generators",c:"Tools & Test Equipment"},
+{n:"Digital Storage Oscilloscopes (DSO)",c:"Tools & Test Equipment"},
+{n:"Logic Analyzers (Saleae 24M 8CH)",c:"Tools & Test Equipment"},
+{n:"Soldering Irons",c:"Tools & Test Equipment",p:"₹199"},
+{n:"Temperature Controlled Soldering Stations",c:"Tools & Test Equipment",p:"₹1,499"},
+{n:"Solder Wire",c:"Tools & Test Equipment"},
+{n:"Soldering Flux",c:"Tools & Test Equipment",p:"₹29"},
+{n:"Desoldering Pumps",c:"Tools & Test Equipment"},
+{n:"PCB Cleaner (IPA)",c:"Tools & Test Equipment"},
+{n:"Digital Multimeters",c:"Tools & Test Equipment",p:"₹249"},
+{n:"Multimeter Probes",c:"Tools & Test Equipment"},
+{n:"Soldering Mats",c:"Tools & Test Equipment"},
+{n:"Logic Analyzers",c:"Tools & Test Equipment"},
+{n:"Oscilloscopes",c:"Tools & Test Equipment"},
+{n:"Screwdrivers",c:"Tools & Test Equipment"},
+{n:"Wire Strippers",c:"Tools & Test Equipment"},
+{n:"Hot Glue Guns",c:"Tools & Test Equipment",p:"₹249"},
+{n:"Hot Glue Sticks",c:"Tools & Test Equipment"},
+{n:"Test Hook Clips",c:"Tools & Test Equipment"},
+{n:"Solder Sucker / Desoldering Pump",c:"Tools & Test Equipment"},
+{n:"Desoldering Wick / Braid",c:"Tools & Test Equipment"},
+{n:"PCB Holder / Third Hand Tool",c:"Tools & Test Equipment"},
+{n:"Precision Screwdriver Sets",c:"Tools & Test Equipment"},
+{n:"Wire Stripper and Cutter Pliers",c:"Tools & Test Equipment",p:"₹149"},
+{n:"Long Nose Pliers",c:"Tools & Test Equipment"},
+{n:"Side Cutter Pliers",c:"Tools & Test Equipment"},
+{n:"Tweezers (Antistatic ESD Safe)",c:"Tools & Test Equipment"},
+{n:"Multimeter Test Leads (Extra fine tip)",c:"Tools & Test Equipment"},
+{n:"Component Sorting Storage Boxes",c:"Tools & Test Equipment"},
+{n:"Ferrule Crimping Tool Kits",c:"Tools & Test Equipment"},
+{n:"Ratchet Wire Crimpers",c:"Tools & Test Equipment"},
+{n:"Heavy Duty Cable Lug Crimpers",c:"Tools & Test Equipment"},
+{n:"Coaxial Cable Strippers",c:"Tools & Test Equipment"},
+{n:"Automatic Wire Stripping Pliers",c:"Tools & Test Equipment"},
+{n:"Diagonal Cutting Pliers",c:"Tools & Test Equipment"},
+{n:"Needle Nose Pliers with Cutters",c:"Tools & Test Equipment"},
+{n:"Circlip Pliers",c:"Tools & Test Equipment"},
+{n:"Hex Allen Key Sets (Metric and Imperial)",c:"Tools & Test Equipment"},
+{n:"Torx Screwdriver Sets",c:"Tools & Test Equipment"},
+{n:"Precision Tweezers Sets",c:"Tools & Test Equipment"},
+{n:"Magnetic Parts Trays",c:"Tools & Test Equipment"},
+{n:"ESD Grounding Mats and Wrist Straps",c:"Tools & Test Equipment"},
+{n:"Component Bin Storage Cabinets",c:"Tools & Test Equipment"},
+{n:"Plastic Drawer Organizer Boxes",c:"Tools & Test Equipment"},
+{n:"Heavy Duty Storage Racks",c:"Tools & Test Equipment"},
+{n:"Label Printers for Component Bins",c:"Tools & Test Equipment"},
+{n:"Magnifying Headsets with Interchangeable Lenses",c:"Tools & Test Equipment"},
+{n:"USB Digital Microscopes for Soldering Inspection",c:"Tools & Test Equipment"},
+{n:"Hot Air Rework Stations (858D series)",c:"Tools & Test Equipment",p:"₹4,499"},
+{n:"SMD Hot Plate Preheaters",c:"Tools & Test Equipment"},
+{n:"BGA Reballing Stencils",c:"Tools & Test Equipment"},
+{n:"Solder Paste Syringes",c:"Tools & Test Equipment"},
+{n:"Solder Paste Dispensers",c:"Tools & Test Equipment"},
+{n:"UV Shadowless Glue",c:"Tools & Test Equipment"},
+{n:"UV Curing Flashlights",c:"Tools & Test Equipment"},
+{n:"Thermal Imaging Cameras for PCB Diagnostics",c:"Tools & Test Equipment"},
+{n:"Digital Wattmeters",c:"Tools & Test Equipment"},
+{n:"AC Power Meters",c:"Tools & Test Equipment"},
+{n:"Plug-in Electricity Monitors",c:"Tools & Test Equipment"},
+{n:"Infrared Thermometers (Laser Pyrometers)",c:"Tools & Test Equipment"},
+{n:"Sound Level Meters",c:"Tools & Test Equipment"},
+{n:"Lux Meters (Digital Light Meters)",c:"Tools & Test Equipment"},
+{n:"Anemometers (Wind Speed Meters)",c:"Tools & Test Equipment"},
+{n:"Tachometers (Optical and Contact RPM Meters)",c:"Tools & Test Equipment"},
+{n:"Gas Leak Detectors",c:"Tools & Test Equipment"},
+{n:"Water Quality Multi-Meters",c:"Tools & Test Equipment"},
+{n:"Soil Test Kits",c:"Tools & Test Equipment"},
+{n:"Digital Refractometers",c:"Tools & Test Equipment"},
+{n:"Electronic Stethoscopes",c:"Tools & Test Equipment"},
+{n:"Signal Generators",c:"Tools & Test Equipment"},
+{n:"Frequency Counters",c:"Tools & Test Equipment"},
+{n:"Transistor Testers (LCR-T4 / GM328)",c:"Tools & Test Equipment"},
+{n:"Component ID Testers",c:"Tools & Test Equipment"},
+{n:"ESD Safe Lab Coats",c:"Tools & Test Equipment"},
+{n:"Safety Glasses",c:"Tools & Test Equipment"},
+{n:"Nitrile Gloves",c:"Tools & Test Equipment"},
+{n:"Smoke Absorbers for Soldering",c:"Tools & Test Equipment"},
+{n:"Mini Exhaust Fans",c:"Tools & Test Equipment"},
+{n:"Desktop Fume Extractors with Activated Carbon Filters",c:"Tools & Test Equipment"},
+{n:"Rain Water Sensor Module",c:"Sensors",p:"₹49"},
+{n:"Flame Sensor Module",c:"Sensors",p:"₹49"},
+{n:"LDR Light Sensor Module",c:"Sensors",p:"₹39"},
+{n:"MG90S Mini Metal Gear Servo",c:"Motors, Actuators & Drivers",p:"₹199"},
+{n:"12V DC Geared Motor",c:"Motors, Actuators & Drivers",p:"₹199"},
+{n:"16x2 LCD Display with I2C Module",c:"Displays & Audio",p:"₹199"},
+{n:"0.96 inch OLED Display (I2C)",c:"Displays & Audio",p:"₹249"},
+{n:"Solderless Breadboard (840 Points)",c:"Connectors, Wires & Hardware",p:"₹149"},
+{n:"9V Battery with Snap Connector",c:"Power & Battery",p:"₹39"},
+{n:"1-Channel 5V Relay Module",c:"Relays & Timers",p:"₹59"},
+{n:"4-Channel 5V Relay Module",c:"Relays & Timers",p:"₹149"},
+{n:"Resistors Pack (1/4 Watt, Assorted)",c:"Basic Components",p:"₹69"},
+{n:"LED Assorted Pack (Pack of 50)",c:"Basic Components",p:"₹79"},
+{n:"Raspberry Pi 4 Model B (4GB)",c:"Development Boards",p:"₹6,999"},
+{n:"Raspberry Pi 5 (8GB)",c:"Development Boards",p:"₹10,999"},
+{n:"STM32F103C8T6 (Blue Pill Board)",c:"Development Boards",p:"₹299"},
+{n:"ATTiny85 Development Board",c:"Development Boards",p:"₹199"},
+{n:"Raspberry Pi Pico W (WiFi built-in)",c:"Development Boards",p:"₹699"},
+{n:"7805 Voltage Regulator (5V)",c:"Power & Battery",p:"₹19"},
+{n:"7812 Voltage Regulator (12V)",c:"Power & Battery",p:"₹19"},
+{n:"BC547 NPN Transistor (Pack of 10)",c:"Basic Components",p:"₹19"},
+{n:"2N2222 NPN Transistor (Pack of 10)",c:"Basic Components",p:"₹29"},
+{n:"10K Potentiometer (Rotary)",c:"Basic Components",p:"₹19"},
+{n:"Preset Variable Resistor (Trim Pot)",c:"Basic Components",p:"₹19"},
+{n:"Active Buzzer (5V)",c:"Displays & Audio",p:"₹19"},
+{n:"Passive Buzzer (5V)",c:"Displays & Audio",p:"₹29"},
+{n:"433MHz RF Transmitter-Receiver Pair",c:"Communication Modules",p:"₹149"},
+{n:"ESP8266 ESP-01 WiFi Module",c:"Communication Modules",p:"₹199"},
+{n:"MQ-2 Gas / Smoke Sensor",c:"Sensors",p:"₹149"},
+{n:"MQ-135 Air Quality Sensor",c:"Sensors",p:"₹199"},
+{n:"LM35 Precision Temperature Sensor",c:"Sensors",p:"₹59"},
+{n:"Pulse / Heart Rate Sensor",c:"Sensors",p:"₹249"},
+{n:"Load Cell Sensor (5kg) with HX711 Module",c:"Sensors",p:"₹299"},
+{n:"IR Obstacle Avoidance Sensor Module",c:"Sensors",p:"₹39"},
+{n:"Sound / Voice Sensor Module",c:"Sensors",p:"₹59"},
+{n:"18650 Single Cell Battery Holder",c:"Power & Battery",p:"₹39"},
+{n:"Solar Panel (5V / 1W)",c:"Power & Battery",p:"₹149"},
+{n:"Tactile Push Buttons (Pack of 10)",c:"Connectors, Wires & Hardware",p:"₹29"},
+{n:"2-Channel 5V Relay Module",c:"Relays & Timers",p:"₹99"},
+{n:"8-Channel 5V Relay Module",c:"Relays & Timers",p:"₹299"},
+{n:"Soldering Lead Wire (50g)",c:"Tools & Test Equipment",p:"₹149"},
+{n:"Zero PCB / Dot PCB Board (4x6 cm)",c:"Connectors, Wires & Hardware",p:"₹19"},
+{n:"BO Motor Wheels (Pair)",c:"Robotics & 3D Printing",p:"₹49"},
+{n:"Mini Castor Wheel",c:"Robotics & 3D Printing",p:"₹39"},
+{n:"Copper Clad Board (for PCB etching)",c:"Connectors, Wires & Hardware",p:"₹49"},
+{n:"Generic / Local 10mm Impact Drill Machine",c:"Power Tools & Equipment",p:"₹1,499"},
+{n:"Bosch GSB 450 Impact Drill (10mm)",c:"Power Tools & Equipment",p:"₹3,499"},
+{n:"Bosch GSB 600 Professional Impact Drill (13mm)",c:"Power Tools & Equipment",p:"₹3,999"},
+{n:"Cordless Drill Machine (12V with Battery & Charger)",c:"Power Tools & Equipment",p:"₹3,499"},
+{n:"Heavy Duty Hammer Drill Machine (Professional)",c:"Power Tools & Equipment",p:"₹5,999"},
+{n:"Rechargeable Cordless Electric Screwdriver (47-in-1 Kit with Bits)",c:"Power Tools & Equipment",p:"₹1,499"},
+{n:"INGCO / Bosch 4V Lithium-Ion Cordless Screwdriver",c:"Power Tools & Equipment",p:"₹2,499"},
+{n:"Mini Precision Electric Screwdriver (For Laptops/Mobiles)",c:"Power Tools & Equipment",p:"₹849"},
+{n:"Angle Grinder (4-inch, Heavy Duty)",c:"Power Tools & Equipment",p:"₹2,499"},
+{n:"Electric Marble / Tile Cutter",c:"Power Tools & Equipment",p:"₹2,999"},
+{n:"Industrial Heat Gun (2000W with Temperature Control)",c:"Power Tools & Equipment",p:"₹1,499"},
+{n:"Electric Jigsaw (For Wood and Plastic Cutting)",c:"Power Tools & Equipment",p:"₹3,999"},
+{n:"Electric Blowers (For Dust Cleaning)",c:"Power Tools & Equipment",p:"₹1,499"},
+{n:"Heavy Duty Electric Glue Gun (100W)",c:"Power Tools & Equipment",p:"₹499"},
+];
+
+const shopState = { query: "", category: "All", visible: 24, sort: "default" };
+const PAGE_SIZE = 24;
+const cartState = new Set();
+
+function productImageUrl(name){
+  const seed = encodeURIComponent(name.toLowerCase().replace(/[^a-z0-9]+/g,'-'));
+  return `https://picsum.photos/seed/${seed}/300/300`;
+}
+
+function buyLink(name){
+  const msg = `Hi PowerFix, I want to order: ${name}`;
+  return `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`;
+}
+
+function priceValue(p){
+  if(!p.p) return null;
+  const n = parseFloat(p.p.replace(/[₹,]/g,''));
+  return isNaN(n) ? null : n;
+}
+
+function renderChips(){
+  const chipsEl = document.getElementById('shopChips');
+  const all = ["All", ...PRODUCT_CATEGORIES];
+  chipsEl.innerHTML = all.map(cat =>
+    `<button type="button" class="chip${cat === shopState.category ? ' active' : ''}" data-cat="${cat}">${cat}</button>`
+  ).join('');
+  chipsEl.querySelectorAll('.chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      shopState.category = btn.dataset.cat;
+      shopState.visible = PAGE_SIZE;
+      renderChips();
+      renderProducts();
+    });
+  });
+}
+
+function filteredProducts(){
+  const q = shopState.query.trim().toLowerCase();
+  let list = PRODUCTS.filter(p => {
+    const matchesCat = shopState.category === "All" || p.c === shopState.category;
+    const matchesQuery = !q || p.n.toLowerCase().includes(q) || p.c.toLowerCase().includes(q);
+    return matchesCat && matchesQuery;
+  });
+
+  if(shopState.sort === "price-asc"){
+    list = [...list].sort((a,b) => (priceValue(a) ?? Infinity) - (priceValue(b) ?? Infinity));
+  } else if(shopState.sort === "price-desc"){
+    list = [...list].sort((a,b) => (priceValue(b) ?? -Infinity) - (priceValue(a) ?? -Infinity));
+  } else if(shopState.sort === "name-asc"){
+    list = [...list].sort((a,b) => a.n.localeCompare(b.n));
+  }
+  return list;
+}
+
+function renderProducts(){
+  const grid = document.getElementById('productGrid');
+  const emptyEl = document.getElementById('shopEmpty');
+  const metaEl = document.getElementById('shopMeta');
+  const loadMoreWrap = document.getElementById('shopLoadMoreWrap');
+
+  const results = filteredProducts();
+  const toShow = results.slice(0, shopState.visible);
+
+  metaEl.textContent = results.length
+    ? `Showing ${toShow.length} of ${results.length} components`
+    : '';
+
+  grid.innerHTML = toShow.map(p => {
+    const inStock = !!p.p;
+    const checked = cartState.has(p.n) ? 'checked' : '';
+    return `
+    <div class="product-card">
+      <div class="product-thumb">
+        <img src="${productImageUrl(p.n)}" alt="${p.n}" loading="lazy" width="300" height="300">
+      </div>
+      <div class="product-body">
+        <span class="product-cat">${p.c}</span>
+        <h4>${p.n}</h4>
+        <span class="stock-tag ${inStock ? 'in' : 'out'}">${inStock ? 'In Stock' : 'Contact for Availability'}</span>
+        <span class="product-price">${p.p ? p.p : 'Contact for Price'}</span>
+        <label class="product-select">
+          <input type="checkbox" class="cart-check" data-name="${p.n.replace(/"/g,'&quot;')}" ${checked}>
+          Add to order
+        </label>
+        <a class="product-buy" href="${buyLink(p.n)}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.3 0-.5s-.6-1.5-.9-2c-.2-.5-.5-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+          Buy
+        </a>
+      </div>
+    </div>
+  `;}).join('');
+
+  emptyEl.classList.toggle('show', results.length === 0);
+  loadMoreWrap.style.display = (shopState.visible < results.length) ? 'flex' : 'none';
+
+  grid.querySelectorAll('.cart-check').forEach(cb => {
+    cb.addEventListener('change', () => {
+      const name = cb.dataset.name;
+      if(cb.checked){ cartState.add(name); } else { cartState.delete(name); }
+      updateCartBar();
+    });
+  });
+}
+
+function updateCartBar(){
+  const bar = document.getElementById('cartBar');
+  const countEl = document.getElementById('cartCount');
+  const sendEl = document.getElementById('cartSend');
+  const n = cartState.size;
+  countEl.textContent = `${n} item${n === 1 ? '' : 's'} selected`;
+  bar.classList.toggle('show', n > 0);
+  if(n > 0){
+    const list = [...cartState].map((name, i) => `${i+1}. ${name}`).join('\n');
+    const msg = `Hi PowerFix, I'd like to order these components:\n${list}`;
+    sendEl.href = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`;
+  }
+}
+
+document.getElementById('cartClear').addEventListener('click', () => {
+  cartState.clear();
+  updateCartBar();
+  renderProducts();
+});
+
+document.getElementById('shopSort').addEventListener('change', (e) => {
+  shopState.sort = e.target.value;
+  shopState.visible = PAGE_SIZE;
+  renderProducts();
+});
+
+let searchDebounce;
+document.getElementById('shopSearch').addEventListener('input', (e) => {
+  clearTimeout(searchDebounce);
+  const value = e.target.value;
+  searchDebounce = setTimeout(() => {
+    shopState.query = value;
+    shopState.visible = PAGE_SIZE;
+    renderProducts();
+  }, 180);
+});
+
+document.getElementById('shopLoadMore').addEventListener('click', () => {
+  shopState.visible += PAGE_SIZE;
+  renderProducts();
+});
+
+renderChips();
+renderProducts();
+
+/* FAQ accordion */
+document.querySelectorAll('.faq-item').forEach(item => {
+  item.querySelector('.faq-q').addEventListener('click', () => {
+    const wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+    if(!wasOpen) item.classList.add('open');
+  });
+});
+
+/* PWA: register service worker (safe no-op if unsupported / not served over http) */
+if('serviceWorker' in navigator){
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+
+
+/* Sticky navbar background on scroll */
+const navbar = document.getElementById('navbar');
+function onScroll(){
+  if(window.scrollY > 30){ navbar.classList.add('scrolled'); }
+  else{ navbar.classList.remove('scrolled'); }
+}
+window.addEventListener('scroll', onScroll);
+onScroll();
+
+/* Mobile menu */
+const hamburger = document.getElementById('hamburger');
+const mobilePanel = document.getElementById('mobilePanel');
+const scrim = document.getElementById('scrim');
+function closeMenu(){
+  hamburger.classList.remove('open');
+  mobilePanel.classList.remove('open');
+  scrim.classList.remove('open');
+}
+hamburger.addEventListener('click', () => {
+  const isOpen = mobilePanel.classList.toggle('open');
+  hamburger.classList.toggle('open', isOpen);
+  scrim.classList.toggle('open', isOpen);
+});
+scrim.addEventListener('click', closeMenu);
+document.querySelectorAll('.mobile-panel a').forEach(a => a.addEventListener('click', closeMenu));
+
+/* Scroll reveal */
+const revealEls = document.querySelectorAll('.reveal');
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('in');
+      io.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.15 });
+revealEls.forEach(el => io.observe(el));
+
+/* Footer year */
+document.getElementById('year').textContent = new Date().getFullYear();
+
+/* Contact form (Formspree AJAX submit so user stays on page) */
+const form = document.getElementById('contactForm');
+const statusEl = document.getElementById('formStatus');
+const submitBtn = document.getElementById('submitBtn');
+
+form.addEventListener('submit', async function(e){
+  e.preventDefault();
+  const actionUrl = form.getAttribute('action');
+
+  if(!actionUrl || actionUrl.includes('YOUR_FORM_ID')){
+    statusEl.textContent = "Form isn't connected yet — replace YOUR_FORM_ID in the form's action with your Formspree endpoint.";
+    statusEl.className = 'form-status show err';
+    return;
+  }
+
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Sending...';
+
+  try{
+    const response = await fetch(actionUrl, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if(response.ok){
+      statusEl.textContent = "Thanks! Your request has been sent — we'll contact you shortly.";
+      statusEl.className = 'form-status show ok';
+      form.reset();
+    } else {
+      statusEl.textContent = 'Something went wrong sending your request. Please call or WhatsApp us directly.';
+      statusEl.className = 'form-status show err';
+    }
+  } catch(err){
+    statusEl.textContent = 'Network error. Please call or WhatsApp us directly.';
+    statusEl.className = 'form-status show err';
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Send Request';
+  }
+});
+</script>
+</body>
+</html>
